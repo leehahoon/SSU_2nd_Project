@@ -39,7 +39,7 @@ int IsSubstring(char *A, char *B) {
     return 0;
 }
 
-void SearchBookName(Book *head, char *target, int searchType) {
+void SearchBook(Book *head, char *target, int searchType) {
     Book *cur = head;
 
     while (cur->nxt != NULL) {
