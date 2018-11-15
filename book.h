@@ -1,3 +1,5 @@
+#include "common.h"
+
 struct book {
 	struct book * next;
 	int book_num;
