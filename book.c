@@ -7,7 +7,7 @@ void PrintBookInfo(Book *cur) {
     printf("* 저자명: %s\n", cur->author);
     printf("* ISBN: %s\n", cur->isbn);
     printf("* 소장처: %s\n", cur->location);
-    printf("* 대여가능 여부: %s\n", cur->lendAble);
+    printf("* 대여가능 여부: %c\n", cur->lendAble);
     printf("-----------------------------\n");
 
     return;
