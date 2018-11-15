@@ -1,3 +1,5 @@
+#include "common.h"
+
 struct client {
 	struct client * next;
 	int stu_num;
