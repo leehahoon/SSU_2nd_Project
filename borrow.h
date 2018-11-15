@@ -1,3 +1,5 @@
+#include "common.h"
+
 struct borrow {
 	struct borrow * next;
 	int stu_num;
