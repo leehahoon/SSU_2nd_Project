@@ -1,10 +1,10 @@
 #include "common.h"
 
-struct borrow {
-	struct borrow * next;
-	int stu_num;
-	int book_num;
-	time_t lend_date;
-	time_t return_date;
+struct BORROW {
+	struct BORROW *next;
+	int stuNum;
+	int bookNum;
+	time_t lendDate;
+	time_t returnDate;
 };
 
