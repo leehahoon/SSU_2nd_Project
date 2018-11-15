@@ -1,11 +1,11 @@
 #include "common.h"
 
-struct client {
-	struct client * next;
-	int stu_num;
+struct CLIENT {
+	struct CLIENT *next;
 	char *pw;
 	char *name;
 	char *address;
 	char *dial;
+	int stuNum;
 };
 
