@@ -1,0 +1,10 @@
+1000001|number A|publish A|author A|1100000000001|locate A|Y
+1000002|number B|publish B|author B|1100000000002|locate A|Y
+1000003|number C|publish C|author C|1100000000003|locate A|N
+1000004|number D|publish D|author D|1100000000004|locate A|Y
+1000005|number E|publish E|author E|1100000000005|locate A|Y
+1000006|number F|publish F|author F|1100000000006|locate A|N
+1000007|number G|publish G|author G|1100000000007|locate A|N
+1000008|number H|publish H|author H|1100000000008|locate A|Y
+1000009|number I|publish I|author I|1100000000009|locate A|N
+1000010|number J|publish J|author J|1100000000010|locate A|Y

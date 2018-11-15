@@ -1,0 +1,11 @@
+00000001|pw1|가 가 가|addr1|dial1
+00000002|pw2|나 나 나|addr2|dial2
+00000003|pw3|다 다 다|addr3|dial3
+00000004|pw4|라 라 라|addr4|dial4
+00000005|pw5|마 마 마|addr5|dial5
+00000006|pw6|바 바 바|addr6|dial6
+00000007|pw7|사 사 사|addr7|dial7
+00000008|pw8|아 아 아|addr8|dial8
+00000009|pw9|자 자 자|addr9|dial9
+00000010|pw10|차 차 차|addr10|dial10
+00000011|pw11|카 카 카|addr11|dial11
