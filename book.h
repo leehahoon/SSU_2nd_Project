@@ -1,14 +1,14 @@
 #include "common.h"
 
 typedef struct Book {
-	struct Book *nxt;
-	char lendAble;
-	char *author;
-	char *bookName;
-	char *location;
-	char *publish;
-	char *isbn;
-	int bookNum;
+    struct Book *nxt;
+    char lendAble;
+    char *author;
+    char *bookName;
+    char *location;
+    char *publish;
+    char *isbn;
+    int bookNum;
 } Book;
 
 void PrintBookInfo(Book *cur);
