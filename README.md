@@ -1,7 +1,5 @@
 # SSU_2nd_Project
 
-Created by Wookje Kwon
-
 ## book.h
 - 도서 검색
   * 도서명, 출판사, ISBN, 저자명으로 검색
