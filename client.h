@@ -9,15 +9,6 @@ typedef struct Client {
 	char *dial;
 } Client;
 
-typedef struct Client {
-	struct Client * next;
-	int stdNum;
-	char *pw;
-	char *name;
-	char *address;
-	char *dial;
-} Client;
-
 void strAllocate(char **chr, char *buf);
 //구조체 멤버 변수 중, char 포인터형 변수 할당의 편의를 위한 함수
 
