@@ -1,35 +1,18 @@
+#include "common.h"
+
 void strAllocate(char **chr, char *buf){
 	*chr = malloc(sizeof(char) * strlen(buf)-1);
 	strcpy(*chr, buf);
 }
 
-void register_client(Client *a){
-	char buf[100];
-
-	printf("학번 : "); scanf("%d", &a->stdNum);
-	
-	printf("비밀번호 : "); scanf(" %[^\n]", buf);
-	strAllocate(&a->pw, buf);
-	
-	printf("이름 : "); scanf(" %[^\n]", buf);
-	strAllocate(&a->name, buf);
-
-	printf("주소 : "); scanf(" %[^\n]", buf);
-	strAllocate(&a->address, buf);
-
-	printf("전화번호 : "); scanf(" %[^\n]", buf);
-	strAllocate(&a->dial, buf);
-
-}
-
 void AddClient(Client *head, Client *cli){
 	Client *newNode = (Client*)malloc(sizeof(Client));
 
-	while(head->next != NULL){
+	while(head->next != NULL && head->next->stdNum < cli->stdNum){
 		head = head->next;
 	}
 
-	head->next = newNode;
+	newNode->next = head->next;
 
 	newNode->stdNum = cli->stdNum;
 	newNode->pw = cli->pw;
@@ -37,7 +20,87 @@ void AddClient(Client *head, Client *cli){
 	newNode->address = cli->address;
 	newNode->dial = cli->dial;
 
-	newNode->next = NULL;
+	head->next = newNode;
+
+}
+
+void DeleteClient(Client *head, int stdNum){
+	while(head->next->stdNum != stdNum){
+		head = head->next;
+	}
+
+	Client *removeNode = head->next;
+	head->next = removeNode->next;
+
+	free(removeNode);
+}
+
+void ModifyClient(Client *head, int stdNum){
+	char buf[100];
+
+	Client *cli = head->next;
+	while(cli->next->stdNum != stdNum){
+		cli = cli->next;
+	}
+
+	if(cli->next == NULL) {
+		puts("회원 정보 X");
+		return;
+	}
+	cli = cli->next;
+	free(cli->pw); free(cli->address); free(cli->dial);
+
+	puts(">> 회원정보 수정 <<");
+	printf("비밀번호 : "); scanf(" %[^\n]", buf);
+	strAllocate(&cli->pw, buf);
+
+	printf("주소 : "); scanf(" %[^\n]", buf);
+	strAllocate(&cli->address, buf);
+
+	printf("전화번호 : "); scanf(" %[^\n]", buf);
+	strAllocate(&cli->dial, buf);
+
+}
+
+int SearchClient(Client *head, int type){
+	char input[100];
+	Client *p = head->next;
+	
+	printf("입력 : ");
+	scanf(" %[^\n]", input);
+
+	while(p != NULL) {
+		switch(type){
+			case 1:
+				if(!strcmp(p->name, input)){
+					PrintClientInfo(p);
+					return 0;
+				}
+				break;
+
+			case 2:
+				if(p->stdNum == atoi(input)){
+					PrintClientInfo(p);
+					return 0;
+				}
+				break;
+
+			case 3:
+				if(p->stdNum ==atoi(input) || !strcmp(p->name, input) \
+					|| !strcmp(p->address, input) || !strcmp(p->dial, input)){
+					PrintClientInfo(p);
+					return 0;
+				}
+				break;
+
+			default:
+				break;
+
+		}
+		p = p->next;
+	}
+	puts("결과 없음"); 
+	return 1;
 }
 
 void PrintClientInfo(Client *cli) {
@@ -65,7 +128,6 @@ void File2Node(Client *head) {
 	char *buf[4];
 
 	for(int i=0;i<4;i++) buf[i] = (char*)malloc(100);
-
 	
 	while(fscanf(fp, "%d|%[^|]|%[^|]|%[^|]|%[^\n]", &cli->stdNum, \
 		buf[0],buf[1],buf[2],buf[3])!=EOF){
@@ -79,4 +141,49 @@ void File2Node(Client *head) {
 	}
 
 	for(int i=0;i<4;i++) free(buf[i]);
+}
+
+int IsOverlapClient(Client *head, int stdNum){
+	Client *p = head->next;
+	while(p != NULL) {
+		if(p->stdNum == stdNum) return 1;
+		p = p->next;
+	}
+
+	return 0;
+}
+
+int RegisterClient(Client *head, Client *cli){
+	char buf[100];
+
+	printf("학번 : "); scanf("%d", &cli->stdNum);
+
+	if(IsOverlapClient(head, cli->stdNum)) {
+		printf("중복된 학번입니다.\n");
+		return 1;
+	}
+	
+	printf("비밀번호 : "); scanf(" %[^\n]", buf);
+	strAllocate(&cli->pw, buf);
+	
+	printf("이름 : "); scanf(" %[^\n]", buf);
+	strAllocate(&cli->name, buf);
+
+	printf("주소 : "); scanf(" %[^\n]", buf);
+	strAllocate(&cli->address, buf);
+
+	printf("전화번호 : "); scanf(" %[^\n]", buf);
+	strAllocate(&cli->dial, buf);
+
+	AddClient(head, cli);
+	return 0;
+}
+
+int ClientLogin(Client *head, int stdNum, char *pw){
+	Client *p = head->next;
+	while(p != NULL) {
+		if(p->stdNum == stdNum && !strcmp(p->pw, pw)) return 1;
+		p = p->next;
+	}
+	return 0;
 }
