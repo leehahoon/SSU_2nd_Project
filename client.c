@@ -1,4 +1,4 @@
-#include "common.h"
+#include "client.h"
 
 void strAllocate(char **chr, char *buf){
 	*chr = malloc(sizeof(char) * strlen(buf)-1);
@@ -21,7 +21,7 @@ void AddClient(Client *head, Client *cli){
 	newNode->dial = cli->dial;
 
 	head->next = newNode;
-
+	Node2File(head);
 }
 
 void DeleteClient(Client *head, int stdNum){
@@ -33,6 +33,7 @@ void DeleteClient(Client *head, int stdNum){
 	head->next = removeNode->next;
 
 	free(removeNode);
+	Node2File(head);
 }
 
 void ModifyClient(Client *head, int stdNum){
@@ -59,6 +60,8 @@ void ModifyClient(Client *head, int stdNum){
 
 	printf("전화번호 : "); scanf(" %[^\n]", buf);
 	strAllocate(&cli->dial, buf);
+
+	Node2File(head);
 
 }
 
@@ -141,6 +144,18 @@ void File2Node(Client *head) {
 	}
 
 	for(int i=0;i<4;i++) free(buf[i]);
+	fclose(fp);
+}
+
+void Node2File(Client *head) {
+	FILE * fp = fopen("client_example.txt", "w");
+	Client *p = head->next;
+	while(p != NULL) {
+		fprintf(fp, "%d|%s|%s|%s|%s\n", p->stdNum, p->pw, p->name, p->address, p->dial);
+		p = p->next;
+	}
+
+	fclose(fp);
 }
 
 int IsOverlapClient(Client *head, int stdNum){
@@ -176,6 +191,7 @@ int RegisterClient(Client *head, Client *cli){
 	strAllocate(&cli->dial, buf);
 
 	AddClient(head, cli);
+	Node2File(head);
 	return 0;
 }
 
