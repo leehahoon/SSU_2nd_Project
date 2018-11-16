@@ -26,6 +26,7 @@ void AddClient(Client *head, Client *cli){
 }
 
 void DeleteClient(Client *head, int stdNum){
+	Client *p = head;
 	while(head->next->stdNum != stdNum){
 		head = head->next;
 	}
@@ -34,7 +35,7 @@ void DeleteClient(Client *head, int stdNum){
 	head->next = removeNode->next;
 
 	free(removeNode);
-	Node2File(head);
+	Node2File(p);
 }
 
 void ModifyClient(Client *head, int stdNum){
