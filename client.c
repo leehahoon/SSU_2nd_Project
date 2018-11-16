@@ -6,6 +6,7 @@ void strAllocate(char **chr, char *buf){
 }
 
 void AddClient(Client *head, Client *cli){
+	Client * p = head;
 	Client *newNode = (Client*)malloc(sizeof(Client));
 
 	while(head->next != NULL && head->next->stdNum < cli->stdNum){
@@ -21,7 +22,7 @@ void AddClient(Client *head, Client *cli){
 	newNode->dial = cli->dial;
 
 	head->next = newNode;
-	Node2File(head);
+	Node2File(p);
 }
 
 void DeleteClient(Client *head, int stdNum){
@@ -151,7 +152,7 @@ void Node2File(Client *head) {
 	FILE * fp = fopen("client_example.txt", "w");
 	Client *p = head->next;
 	while(p != NULL) {
-		fprintf(fp, "%d|%s|%s|%s|%s\n", p->stdNum, p->pw, p->name, p->address, p->dial);
+		fprintf(fp, "%08d|%s|%s|%s|%s\n", p->stdNum, p->pw, p->name, p->address, p->dial);
 		p = p->next;
 	}
 
@@ -170,7 +171,7 @@ int IsOverlapClient(Client *head, int stdNum){
 
 int RegisterClient(Client *head, Client *cli){
 	char buf[100];
-
+	Client *head_bak = head;
 	printf("학번 : "); scanf("%d", &cli->stdNum);
 
 	if(IsOverlapClient(head, cli->stdNum)) {
@@ -191,7 +192,7 @@ int RegisterClient(Client *head, Client *cli){
 	strAllocate(&cli->dial, buf);
 
 	AddClient(head, cli);
-	Node2File(head);
+	Node2File(head_bak);
 	return 0;
 }
 
