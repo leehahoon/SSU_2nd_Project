@@ -42,6 +42,9 @@ void PrintNodes(Client *cli);
 void File2Node(Client *head);
 //Client 파일을 읽어 링크드리스트 노드로 변환
 
+void Node2File(Client *head);
+//링크드리스트 노드를 Client 파일로 변환
+
 int IsOverlapClient(Client *head, int stdNum);
 //Client 파일에서 학번 중복 체크
 //중복될 경우, return 1, 중복이 아닐 경우, return 0;
@@ -54,4 +57,3 @@ int ClientLogin(Client *head, int stdNum, char *pw);
 //Client 로그인
 //int stdNum : 학번
 //char *pw : 패스워드
-
