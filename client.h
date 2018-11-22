@@ -39,10 +39,10 @@ void PrintClientInfo(Client *cli);
 void PrintNodes(Client *cli);
 //Client 링크드리스트 노드 정보 출력
 
-void File2Node(Client *head);
+void ClientFile2Node(Client *head);
 //Client 파일을 읽어 링크드리스트 노드로 변환
 
-void Node2File(Client *head);
+void ClientNode2File(Client *head);
 //링크드리스트 노드를 Client 파일로 변환
 
 int IsOverlapClient(Client *head, int stdNum);
@@ -53,7 +53,7 @@ int RegisterClient(Client *head, Client *a);
 //Client 회원가입
 //학번, 비밀번호 등 입력받고 Client *a에 저장
 
-int ClientLogin(Client *head, int stdNum, char *pw);
+int LoginClient(Client *head, char *stdNum, char *pw);
 //Client 로그인
 //int stdNum : 학번
 //char *pw : 패스워드

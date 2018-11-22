@@ -22,7 +22,7 @@ void AddClient(Client *head, Client *cli){
 	newNode->dial = cli->dial;
 
 	head->next = newNode;
-	Node2File(p);
+	ClientNode2File(p);
 }
 
 void DeleteClient(Client *head, int stdNum){
@@ -35,7 +35,7 @@ void DeleteClient(Client *head, int stdNum){
 	head->next = removeNode->next;
 
 	free(removeNode);
-	Node2File(p);
+	ClientNode2File(p);
 }
 
 void ModifyClient(Client *head, int stdNum){
@@ -63,7 +63,7 @@ void ModifyClient(Client *head, int stdNum){
 	printf("전화번호 : "); scanf(" %[^\n]", buf);
 	strAllocate(&cli->dial, buf);
 
-	Node2File(head);
+	ClientNode2File(head);
 
 }
 
@@ -127,7 +127,7 @@ void PrintNodes(Client *cli) {
 	puts("");
 }
 
-void File2Node(Client *head) {
+void ClientFile2Node(Client *head) {
 	FILE * fp = fopen("client_example.txt", "r");
 	Client * cli = (Client*)malloc(sizeof(Client));
 	char *buf[4];
@@ -149,7 +149,7 @@ void File2Node(Client *head) {
 	fclose(fp);
 }
 
-void Node2File(Client *head) {
+void ClientNode2File(Client *head) {
 	FILE * fp = fopen("client_example.txt", "w");
 	Client *p = head->next;
 	while(p != NULL) {
@@ -193,14 +193,15 @@ int RegisterClient(Client *head, Client *cli){
 	strAllocate(&cli->dial, buf);
 
 	AddClient(head, cli);
-	Node2File(head_bak);
+	ClientNode2File(head_bak);
 	return 0;
 }
 
-int ClientLogin(Client *head, int stdNum, char *pw){
+int LoginClient(Client *head, char *stdNum, char *pw){
+	if(!strcmp(stdNum, "admin")) return 2;
 	Client *p = head->next;
 	while(p != NULL) {
-		if(p->stdNum == stdNum && !strcmp(p->pw, pw)) return 1;
+		if(p->stdNum == atoi(stdNum) && !strcmp(p->pw, pw)) return 1;
 		p = p->next;
 	}
 	return 0;

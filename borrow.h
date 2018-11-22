@@ -36,5 +36,5 @@ char* getDay(struct tm *t);
 void PrintBorrowInfo(Borrow *brw);
 //Borrow 구조체 정보 출력
 
-void PrintBorrowNodes(Borrow *brw);력
+void PrintBorrowNodes(Borrow *brw);
 //Borrow 링크드리스트 노드 출력
