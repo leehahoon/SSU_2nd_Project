@@ -43,7 +43,7 @@ void LendList(Borrow *head, int stdNum) {
 }
 
 void BorrowFile2Node(Borrow *head) {
-	FILE * fp = fopen("borrow_example.txt", "r");
+	FILE * fp = fopen("txt_files/borrow.txt", "r");
 	Borrow * brw = (Borrow*)malloc(sizeof(Borrow));
 	
 	while(fscanf(fp, "%d|%d|%ld|%ld\n", &brw->stdNum, \
@@ -54,7 +54,7 @@ void BorrowFile2Node(Borrow *head) {
 }
 
 void BorrowNode2File(Borrow *head) {
-	FILE * fp = fopen("borrow_example.txt", "w");
+	FILE * fp = fopen("txt_files/borrow.txt", "w");
 	Borrow *p = head->next;
 	while(p != NULL) {
 		fprintf(fp, "%08d|%d|%ld|%ld\n", p->stdNum, p->bookNum, p->lendDate, p->returnDate);

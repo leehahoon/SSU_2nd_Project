@@ -128,7 +128,7 @@ void PrintNodes(Client *cli) {
 }
 
 void ClientFile2Node(Client *head) {
-	FILE * fp = fopen("client_example.txt", "r");
+	FILE * fp = fopen("txt_files/client.txt", "r");
 	Client * cli = (Client*)malloc(sizeof(Client));
 	char *buf[4];
 
@@ -150,7 +150,7 @@ void ClientFile2Node(Client *head) {
 }
 
 void ClientNode2File(Client *head) {
-	FILE * fp = fopen("client_example.txt", "w");
+	FILE * fp = fopen("txt_files/client.txt", "w");
 	Client *p = head->next;
 	while(p != NULL) {
 		fprintf(fp, "%08d|%s|%s|%s|%s\n", p->stdNum, p->pw, p->name, p->address, p->dial);
