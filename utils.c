@@ -45,6 +45,7 @@ void MemberMenu(){
 
 void AdminMenu(){
 	int menu;
+	int bookNum = 0;
 
 	while(1){
 		puts(">> 관리자 메뉴 <<");
@@ -56,6 +57,7 @@ void AdminMenu(){
 		switch(menu){
 			case 1:
 				puts("도서 등록");
+				bookNum++;
 				break;
 
 			case 2:
