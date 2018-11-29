@@ -6,7 +6,7 @@ void MemberMenu(){
 	while(1) {
 		puts(">> 회원 메뉴 <<");
 		puts("1. 도서 검색\t\t2. 내 대여 목록");
-		puts("3. 개인정보 수정\t\t4. 회원 탈퇴");
+		puts("3. 개인정보 수정\t4. 회원 탈퇴");
 		puts("5. 로그아웃\t\t6. 프로그램 종료");
 		printf("번호를 선택하세요 : "); scanf("%d", &menu);
 
