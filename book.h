@@ -8,7 +8,7 @@ typedef struct Book {
     char *bookName;			// 책 이름
     char *location;			// 위치
     char *publish;			// 출판사
-    long long *isbn;		// ISBN
+    long long isbn;		    // ISBN
     int bookNum;			// 책 번호
 } Book;
 
@@ -53,3 +53,15 @@ void lendBook(Book *head, int bookNum);
  * bookNum: 반납할 책의 책 번호
 **********************************************************/
 void returnBook(Book *head, int bookNum);
+
+
+/*********************************************************
+ * 파일 불러오기
+**********************************************************/
+void BookFile2Node(Borrow *head);
+
+
+/*********************************************************
+ * 파일 저장하기
+**********************************************************/
+void BookNode2File(Borrow *head);
