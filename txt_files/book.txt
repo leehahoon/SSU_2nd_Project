@@ -1,101 +1,101 @@
-1000000|The Real Horse|University of Arizona Press|Farid Matuk|1111111111111|MEMAG1YYYF5SDXE5ZHXX8OF|Y
-1000001|World Class|University Press of New England|Peggy Shinn|1111111111112|O8503MRS3WJYPZ5IR0JCFUO|Y
-1000002|Composition, Rhetoric, and Disciplinarity|Utah State University Press||1111111111113|O51VWPJ1D3QY3UUJUGR6NI8|Y
-1000003|The Eclipse of the Utopias of Labor|Fordham University Press|Anson Rabinbach|1111111111114|KW3ZTW6Z4ROXC69BE0LK2X2|Y
-1000004|The Man in Song|University of Arkansas Press||1111111111115|FCSMWECP0WFEB5BYZCXAIZH|Y
-1000005|Washington's Dark Secret|Potomac Books|John Maszka|1111111111116|WWEX6EDKMQE22ME104NYCCD|Y
-1000006|Scalia v. Scalia|University of Alabama Press|Catherine L. Langford|1111111111117|H4457HXAY3DNIES3O76RMBY|Y
-1000007|Cashing In on Cyberpower|Potomac Books|Mark T. Peters|1111111111118|GTW7EQAEHSPKNA9RKS103T9|Y
-1000008|Modernism as Memory|University of Minnesota Press|Kathleen James-Chakraborty|1111111111119|VA8GK09FHQSO7LWVIIF4L8J|Y
-1000009|Cuarto oscuro|University of Alabama Press|Lila Quintero Weaver, translated by Karina Elizabeth Vázquez|1111111111120|QCR8YUJUM7ER0S1AJDXTXZ6|Y
-1000010|Bright Raft in the Afterweather|University of Arizona Press|Jennifer Elise Foerster|1111111111121|1B4INE6106HHTSZZJT1AME9|Y
-1000011|Appalachia in Regional Context|The University Press of Kentucky|edited by Dwight B. Billings and Ann E. Kingsolver. with contributions by Barbara Ellen Smith, John Pickles, John Gaventa, Elizabeth Engelhardt, Carol A. Mason, Mary L. Gray, bell hooks, Rich Kirby, John Haywood, Ron Pen, Gina Caison, David A. Davis, Laur|1111111111122|09JAO42HH00PRM98Z4TEBXI|Y
-1000012|Sexual Politics and Feminist Science|Cornell University Press|Kirsten Leng|1111111111123|EJ2LKWGWAP4W076OLC6N1LB|Y
-1000013|Chemical Lands|University of Alabama Press|David D. Vail|1111111111124|2ERWBI17UANYSF796Z7QBI0|Y
+1000000|The Real Horse|University of Arizona Press|Farid Matuk|1117216583429|JZ4OPYE7ZNC91EQ43R1ZFEE|Y
+1000001|World Class|University Press of New England|Peggy Shinn|1118540015428|BCUFWQUGQK0JXR8F5H1JJDL|Y
+1000002|Composition, Rhetoric, and Disciplinarity|Utah State University Press||1221031372994|O91TUF1GRGT3LL71BGE9JLW|Y
+1000003|The Eclipse of the Utopias of Labor|Fordham University Press|Anson Rabinbach|1271447805036|99WILA6LIQ7RKURXDOYZ0JE|Y
+1000004|The Man in Song|University of Arkansas Press||1339546304634|GLXIQYGG9CHVQE9UY72KTCU|Y
+1000005|Washington's Dark Secret|Potomac Books|John Maszka|1392742110369|EE4PAUYZR5DT8YE4NDBIKJ9|Y
+1000006|Scalia v. Scalia|University of Alabama Press|Catherine L. Langford|1440423516711|VLKKOXIIZ7V3KI2WGUXY08I|Y
+1000007|Cashing In on Cyberpower|Potomac Books|Mark T. Peters|1474168251675|BVX5HLY45IHPHGPNE0J7QAB|Y
+1000008|Modernism as Memory|University of Minnesota Press|Kathleen James-Chakraborty|1551569544766|A74DWWHL64HDJ9FGDK72B6E|Y
+1000009|Cuarto oscuro|University of Alabama Press|Lila Quintero Weaver, translated by Karina Elizabeth Vázquez|1690190860417|8KJBNL84578MZQ1TUAG2EFE|Y
+1000010|Bright Raft in the Afterweather|University of Arizona Press|Jennifer Elise Foerster|1747652363309|G0QLGSAYS7421672TZH8426|Y
+1000011|Appalachia in Regional Context|The University Press of Kentucky|edited by Dwight B. Billings and Ann E. Kingsolver. with contributions by Barbara Ellen Smith, John Pickles, John Gaventa, Elizabeth Engelhardt, Carol A. Mason, Mary L. Gray, bell hooks, Rich Kirby, John Haywood, Ron Pen, Gina Caison, David A. Davis, Laur|1899388311850|ODJ51KZR2VSK9GOAVG8NKEH|Y
+1000012|Sexual Politics and Feminist Science|Cornell University Press|Kirsten Leng|1955367289599|PNXYL78PKN7NDH0MIE4X7LZ|Y
+1000013|Chemical Lands|University of Alabama Press|David D. Vail|1979364115420|F072IPDJG92MG222DU0YH2F|Y
 1000014|Keywords;|Princeton University Press|Authored by a Community of Inquiry
-Edited by D. Graham Burnett, Matthew Rickard &amp; Jessica Terekhov|1111111111125|L7ULOWO96T3Y299N9EV5XTH|Y
-1000015|After Prison|Wilfrid Laurier University Press|Edited by Rose Ricciardelli and Adrienne M.F. Peters|1111111111126|4X3YUJ77E5PGVLOXCPSQX4W|Y
-1000016|Undoing Work, Rethinking Community|Cornell University Press|James A. Chamberlain|1111111111127|GPQXSYV7WPQRIRB6OCNWFY2|Y
-1000017|A History of Occupational Health and Safety|University of Nevada Press||1111111111128|AZ6VFR254ZILQ44EKV94KCN|Y
-1000018|Forty Minutes to Glory|The University Press of Kentucky|Doug Brunk. forewords by Larry Vaught and Tom Leach. featuring chapters by Jack Givens, Joe B. Hall, and others|1111111111129|RMDK5WV1G51OT0XUL5YNDZ3|Y
-1000019|Respectability and Reform|Syracuse University Press|Tara M. McCarthy|1111111111130|ZWJPAF5F9FMDAVDYMC7RP4K|Y
-1000020|Poetry for Beginners|The Chinese University Press|Gabeba BADEROON|1111111111131|TK88UJQZLREM483QHVG27PM|Y
-1000021|Black Bone|The University Press of Kentucky|edited by Bianca Lynne Spriggs and Jeremy Paden.|1111111111132|M4QI2P5HOQW8QOT5RKBM5H7|Y
-1000022|The Question of Raising Cranes|The Chinese University Press|CHEN Xianfa|1111111111133|J5E830USKIEANUBUUWDNNCL|Y
-1000023|La Patria Nueva|Editorial A Contracorriente|Paulo Drinot|1111111111134|5SUC9NIO5R6FYHCC5TFCWTD|Y
-1000024|Parting Words|University of Virginia Press|Justin A. Sider|1111111111135|IWITW2MSCYXM2I02U2R437J|Y
-1000025|Svay|Cornell University Press|May Mayko Ebihara&lt;BR&gt;edited by Andrew Mertha&lt;BR&gt;introduction by Judy Ledgerwood|1111111111136|L1KSYUF4YQKWTNPWX6LPZE6|Y
-1000026|Power Button|The MIT Press|Rachel Plotnick|1111111111137|LRUD0VJ1DEXRL5VYVMHCYFD|Y
-1000027|Cahuilla Nation Activism and the Tribal Casino Movement|University of Nevada Press|Theodor P. Gordon|1111111111138|1SOMDEVYQX8PKJT4XZBDPQ4|Y
-1000028|Flames of Discontent|University of Minnesota Press|Gary Kaunonen|1111111111139|DF308DOTZZEXB3MBFNNWGBZ|Y
-1000029|Narrative of the Life and Adventures of Henry Bibb, An American Slave, Written by Himself|University of North Carolina at Chapel Hill Library|Henry Bibb|1111111111140|4F61IX0K98230MZ482TTESV|Y
-1000030|I'm Not Like Everybody Else|UNP - Nebraska|Jeffrey T. Nealon|1111111111141|PR5YHXS2AKXATW396N7MDBN|Y
-1000031|Consciousness Demystified|The MIT Press|Todd E. Feinberg and Jon M. Mallatt|1111111111142|6W1I1LZKT6J70XLKF549L21|Y
-1000032|Ten Days That Shook the World|Slavica Publishers||1111111111143|GY8TLX1NO5VQT4V2LY2D07H|Y
-1000033|In Sickness and in Wealth|Indiana University Press|Carol Chan|1111111111144|3PHAV4RK66R4AT3DKQZXAE9|Y
-1000034|The Palestinian National Revival|Indiana University Press|Moshe Shemesh|1111111111145|RNK0BZEBRVLAOGZCSHVV9SJ|Y
-1000035|Queen of Heaven|University of Notre Dame Press|Lilla Grindlay|1111111111146|1TMMID34V9I9TRW575H477Z|Y
-1000036|Moving Beyond the Impasse|Augsburg Fortress Publishers|By S. Wesley Ariarajah|1111111111147|CZKYWGX1NPQ7RIY7D46VV2H|Y
-1000037|Bioarchaeology of Pre-Columbian Mesoamerica|University Press of Florida|Edited by Cathy Willermet and Andrea Cucina|1111111111148|7S8GEIIC0LX3QX5F51UHEBI|Y
-1000038|Black Hole Factory|University of Tampa Press|Poems by Eric Smith|1111111111149|GU9JHEGP9HNPB9548ER999G|Y
-1000039|Our Selfish Tax Laws|The MIT Press|Anthony C. Infanti|1111111111150|IU8FCAK3SA25182KX14SC01|Y
-1000040|In Defense of Israel|Brookings Institution Press|Moshe  Arens|1111111111151|43PL4YHOUPJ75XBI1B38P7E|Y
-1000041|Ottawa, lieu de vie français|University of Ottawa Press|Sous la direction de Anne Gilbert, Linda Cardinal, Michel Bock, Lucie Hotte et François Charbonneau. Avec des contributions de Joël Beddows, Kenza Benali, Philippe Couton, Jean-Philippe Croteau, Marie Hélène Eddie, Pierre Foucher, Yves Frenette, Paul L. G|1111111111152|8Q4LPPKRK567W3T7ZXX0XVZ|Y
-1000042|Make Way for Her|The University Press of Kentucky|Katie Cortese|1111111111153|KB8EBEP8QKMUUZLAFOI3MFV|Y
-1000043|The Terrorist Argument|Brookings Institution Press|Christopher C. Harmon|1111111111154|5Q9RMCJA7J9IQGF9H2CXIOO|Y
-1000044|Recording Village Life|University of Michigan Press|Jennifer A. Cromwell|1111111111155|X1WO6EXVJMDJQR5ZALAB5XF|Y
-1000045|Land, Politics, and Memory in Five Nija'ib' K'iche' Títulos|University Press of Colorado||1111111111156|4640ZTZDXNOGL2U5YKKRS1T|Y
-1000046|Epidemic|Brookings Institution Press|Reid  Wilson|1111111111157|J5UNJIXRJWUMG229M8ZZRC9|Y
-1000047|El movimiento obrero y las izquierdas en América Latina|Editorial A Contracorriente|Hernán Camarero|1111111111158|X89DN8KU5DOLKV81ET82GSF|Y
-1000048|Veer Ecology|University of Minnesota Press|Jeffrey Jerome Cohen|1111111111159|RHJDBJOBJP2PL8WUWN73ORA|Y
-1000049|Androgyny|The Chinese University Press|CHOW Yiu Fai |1111111111160|PRSL5PL4B41GSYPX5NZHDFO|Y
-1000050|Crítica de la razón andina|Editorial A Contracorriente|Carlos Abreu Mendoza|1111111111161|ABYZ33I218GGMG61F78QCQN|Y
-1000051|El movimiento obrero y las izquierdas en América Latina|Editorial A Contracorriente|Hernán Camarero|1111111111162|V4UMKRRO0EUAKOYO1Z3BMIS|Y
-1000052|Humanitarian Hypocrisy|Cornell University Press|Andrea L. Everett|1111111111163|GBWEEVE6YWHCM9DRL64JER1|Y
-1000053|Angel of Tigers|The Chinese University Press|Lorna CROZIER|1111111111164|Q4PKEA8B89CTU5RU9SG353X|Y
-1000054|Finding Voice|University of Michigan Press|Kim S. Berman|1111111111165|4GPO3CCD47GVINR3UUP9IBA|Y
-1000055|Singing Yoruba Christianity|Indiana University Press|Vicki L. Brennan|1111111111166|469QDWKMZYOU7K2AOA2EH52|Y
-1000056|Destined for Greatness|Rutgers University Press|Ramirez, Michael|1111111111167|6BY39W38406L4KLCOTQNV9N|Y
-1000057|Public Privates|UNP - Nebraska|Marcia R. England|1111111111168|M7M6IYIS2C3L3ZEPM64O8HV|Y
-1000058|Superhumanity|University of Minnesota Press|Nick Axel|1111111111169|YFVH4NVG2CWWSRS8QDMRG5D|Y
-1000059|Kenneth Burke's Permanence and Change|University of South Carolina Press|Ann George|1111111111170|C6EOH1JAFE774PKNU91B7GU|Y
-1000060|Understanding Francisco Goldman|University of South Carolina Press|Ariana E. Vigil|1111111111171|ENA2P9B9ZJ33GY6ORJP468G|Y
-1000061|Congo Inc.|Indiana University Press|In Koli Jean Bofane|1111111111172|1QS1PIK42S1PD0VA84Y418J|Y
-1000062|Between Foreign and Family|Rutgers University Press|Lee, Helene K|1111111111173|A0CAFI0ABUDXL22RR1VOCB4|Y
-1000063|The Future of Work|Brookings Institution Press|Darrell M. West|1111111111174|NX9QWJH06J5KGQZ7ADDPBVC|Y
-1000064|Selected Works of Abbot Suger of Saint Denis|Catholic University of America Press|Translated with Introduction and Notes by Richard Cusimano and Eric Whitmore|1111111111175|97YSXFPG0HGFQZEXGPKFBNS|Y
-1000065|A Capsule Aesthetic|University of Minnesota Press|Kate Mondloch|1111111111176|FIB6PKGEAAASNS3QBRJ156Z|Y
-1000066|The Amazing Mr. Morality|West Virginia University Press|author|1111111111177|3SBUKKS1MV65PZC4JHX64Y0|Y
-1000067|The Essential Caputo|Indiana University Press|Edited by B. Keith Putt|1111111111178|LK59ES0SJ6J8INWUH7U1HX4|Y
-1000068|Youth Media Matters|University of Minnesota Press|Korina M. Jocson|1111111111179|6LFWUG5W8DBTZBUNEZ5MDTJ|Y
-1000069|The Modernist Corpse|University of Minnesota Press|Erin E. Edwards|1111111111180|JQRCQR6AIXN40PKFD3LGWXR|Y
-1000070|Dissensual Subjects|Northwestern University Press|Andrew C. Rajca|1111111111181|MN13J8BWP57YANX88WGD8WO|Y
-1000071|Black Litigants in the Antebellum American South|The University of North Carolina Press|Kimberly M. Welch|1111111111182|A4WRQKGCR8ZDD81FPX4J20P|Y
-1000072|The Opinion of Mankind|Princeton University Press|Paul Sagar|1111111111183|IJHA5QDE4TLH5ZB6P0X4WDJ|Y
-1000073|Butterfly Gardening|Princeton University Press|Jane Hurwitz|1111111111184|OBABN1RKFH0PDWF8GQ1RTES|Y
-1000074|Leading Colleges and Universities|Johns Hopkins University Press|edited by Stephen Joel Trachtenberg, Gerald B. Kauvar, and E. Gordon Gee|1111111111185|HOBEFP0YM1ME7MUUVKB7RN9|Y
-1000075|My Exaggerated Life|University of South Carolina Press|Katherine Clark|1111111111186|8KOM6ZFT3BRZXHOC9RZ1MEU|Y
-1000076|A New City O/S|Brookings Institution Press|Stephen Goldsmith|1111111111187|SBBMLTCC65MDQT3OGA0TW0N|Y
-1000077|Garden Insects of North America|Princeton University Press|Whitney Cranshaw &amp; David Shetlar|1111111111188|VXVTWVROD04SUGSOFNNVQ5X|Y
-1000078|Narratives of Educating for Sustainability in Unsustainable Environments|Michigan State University Press||1111111111189|PO1F4Z610VEHC2818MDF206|Y
-1000079|Sustaining Wildlands|University of Arizona Press|Edited by Aaron J. Poe and Randy Gimblett|1111111111190|SB5KTHYL08VJOAFJ27ALUJA|Y
-1000080|Monkey Trouble|Fordham University Press|Christopher Peterson|1111111111191|1KR76FM7SS4L237OXT0O8F0|Y
-1000081|Freud's Jaw and Other Lost Objects|Fordham University Press|Lana Lin|1111111111192|0IWW30SWMO1SUQCM9N00COF|Y
-1000082|Derrida after the End of Writing|Fordham University Press|Clayton Crockett|1111111111193|DP06C38FKWXMJ9X65BXRELO|Y
-1000083|Imperfect Pregnancies|Johns Hopkins University Press|Ilana Löwy|1111111111194|2IG3F3MKQJOQ5W32HTZVY0P|Y
-1000084|Stranger God|Augsburg Fortress Publishers|By Richard Beck|1111111111195|KK99FI8U1KP76QQVST278NR|Y
-1000085|Field Guide to the Fishes of the Amazon, Orinoco, and Guianas|Princeton University Press|Edited by Peter van der Sleen &amp; James S. Albert|1111111111196|TV50XP3R9DCAUW9IP414RGR|Y
-1000086|Care of the Species|University of Minnesota Press|John Hartigan Jr.|1111111111197|T160X89WZP82BYK7LYP6Y65|Y
-1000087|Disputed Temple|Augsburg Fortress Publishers|By John Robert Barker|1111111111198|7CA7IKEW8T9MDELGCD0WBO4|Y
-1000088|The Modoc War|UNP - Bison Books|mcnally|1111111111199|MDVGPKM1UF6WS7YE79N0LLH|Y
-1000089|Abracadabra|University of Nevada Press||1111111111200|J5VBE0H6ZODXOH56UNXWAQ9|Y
-1000090|Saving Images|Augsburg Fortress Publishers|By Gordon W. Lathrop|1111111111201|JVO9NUSF4AWPQX49KKN0AGX|Y
-1000091|Morta Las Vegas|UNP - Nebraska|Nathaniel Lewis|1111111111202|0UT9JUJ9TYH9TC3QAUUSHFY|Y
-1000092|Johannine Ethics|Augsburg Fortress Publishers|By Christopher W. Skinner and Sherri Brown|1111111111203|MYR6NBUE7F6F1IYV3PV43RK|Y
-1000093|Indigenous Cities|UNP - Nebraska|Laura M. Furlan|1111111111204|Y7SXP3CW3JVC4HV3V2INCY2|Y
-1000094|The Unity of Theology|Augsburg Fortress Publishers|By Theodore James Whapham|1111111111205|YIM1X08E49AD5LXH0V20XGT|Y
-1000095|Hitchhiker|The University Press of Kentucky|Bob Thompson. foreword by Roberta Simpson Brown|1111111111206|AF7X25XYF92FBT4EPYP96HS|Y
-1000096|A Girl's A Gun|The University Press of Kentucky|Rachel Danielle Peterson|1111111111207|92JZZ6YFN804KFIF2ATF4AT|Y
-1000097|Sovereign Acts|University of Arizona Press|Edited by Frances Negrón-Muntaner|1111111111208|0I7GNXZ1P7G1Y6C3EKJV4S3|Y
-1000098|Mimetic Theory and World Religions|Michigan State University Press||1111111111209|PARZK661G884WW1XK9UEJMZ|Y
-1000099|The Rhetoric of Jesus in the Gospel of Mark|Augsburg Fortress Publishers|By Michael Strickland and David M. Young|1111111111210|Q7EZVIEFA7INKIVWGFKD9O6|Y
+Edited by D. Graham Burnett, Matthew Rickard &amp; Jessica Terekhov|2046120687753|DIXZ4IPRE37TQAQZBRRTYVI|Y
+1000015|After Prison|Wilfrid Laurier University Press|Edited by Rose Ricciardelli and Adrienne M.F. Peters|2273778084520|QNR4WE7EH72QHBI1YXESAVE|Y
+1000016|Undoing Work, Rethinking Community|Cornell University Press|James A. Chamberlain|2370468046641|GVD5WD8O78T2KAYO4OOSPBM|Y
+1000017|A History of Occupational Health and Safety|University of Nevada Press||2398470785453|DM58HO1V5L4F1N96Y1PHR17|Y
+1000018|Forty Minutes to Glory|The University Press of Kentucky|Doug Brunk. forewords by Larry Vaught and Tom Leach. featuring chapters by Jack Givens, Joe B. Hall, and others|2413148331030|Q3AGX45CTYF6QT0UE8ZNFE1|Y
+1000019|Respectability and Reform|Syracuse University Press|Tara M. McCarthy|2450710640225|IDWP5A19DZ4V4PS62JOSSZL|Y
+1000020|Poetry for Beginners|The Chinese University Press|Gabeba BADEROON|2778180912488|PDM0FYI9X3409YKI9H56PU4|Y
+1000021|Black Bone|The University Press of Kentucky|edited by Bianca Lynne Spriggs and Jeremy Paden.|2856429183469|9WQS9MYPK8OJBYSGYJ6V0ZA|Y
+1000022|The Question of Raising Cranes|The Chinese University Press|CHEN Xianfa|2869648330910|G6R9C47NG3Y7Y7EBVJJBR99|Y
+1000023|La Patria Nueva|Editorial A Contracorriente|Paulo Drinot|2935332042354|66SQ09ZGIY2MW8KZAOVM0B5|Y
+1000024|Parting Words|University of Virginia Press|Justin A. Sider|2985963457942|HFK6UMUXEOK8AO746XEN54O|Y
+1000025|Svay|Cornell University Press|May Mayko Ebihara&lt;BR&gt;edited by Andrew Mertha&lt;BR&gt;introduction by Judy Ledgerwood|2988471666313|BNW55MTHWKJXSFQK5IU0HA4|Y
+1000026|Power Button|The MIT Press|Rachel Plotnick|3029013554432|SRZFCTPL5JPXVZYI4AUH9V6|Y
+1000027|Cahuilla Nation Activism and the Tribal Casino Movement|University of Nevada Press|Theodor P. Gordon|3129964639306|5QO718PVCVG3RXXUSGZATSB|Y
+1000028|Flames of Discontent|University of Minnesota Press|Gary Kaunonen|3433311256082|F8C14DT18ZLJXAPPL38KRRP|Y
+1000029|Narrative of the Life and Adventures of Henry Bibb, An American Slave, Written by Himself|University of North Carolina at Chapel Hill Library|Henry Bibb|3528203908601|A39M13JL2WE5YWMZSYBNLF0|Y
+1000030|I'm Not Like Everybody Else|UNP - Nebraska|Jeffrey T. Nealon|3756212392145|3HFT0BBDFG1CQ4XHCSXQ6BB|Y
+1000031|Consciousness Demystified|The MIT Press|Todd E. Feinberg and Jon M. Mallatt|3841512716085|Z0G7E79JD3UZ4LYVNG31CC3|Y
+1000032|Ten Days That Shook the World|Slavica Publishers||3873644942097|5P8GN2YGTD4MS527VBUKC4R|Y
+1000033|In Sickness and in Wealth|Indiana University Press|Carol Chan|3936177418829|BWV3MTLS3F4TY491PUCB4FE|Y
+1000034|The Palestinian National Revival|Indiana University Press|Moshe Shemesh|4000866026767|YXXVZT6L2AG0K3NOOP449RX|Y
+1000035|Queen of Heaven|University of Notre Dame Press|Lilla Grindlay|4137145954260|C2KZGTE7P6AHIBGPPO6K5V1|Y
+1000036|Moving Beyond the Impasse|Augsburg Fortress Publishers|By S. Wesley Ariarajah|4160067853265|V5FQP1I4XIO658C2J6G70CQ|Y
+1000037|Bioarchaeology of Pre-Columbian Mesoamerica|University Press of Florida|Edited by Cathy Willermet and Andrea Cucina|4247314338091|91KNDNSS5ISPL8MV8CDZM7F|Y
+1000038|Black Hole Factory|University of Tampa Press|Poems by Eric Smith|4393411995652|B105ZQ29Y6YSGEOT1J63I1O|Y
+1000039|Our Selfish Tax Laws|The MIT Press|Anthony C. Infanti|4591250796595|007KWB4STDLLD4YADYF4T3Z|Y
+1000040|In Defense of Israel|Brookings Institution Press|Moshe  Arens|4641381827339|78SE71DVK8B54LDWWU8VG0E|Y
+1000041|Ottawa, lieu de vie français|University of Ottawa Press|Sous la direction de Anne Gilbert, Linda Cardinal, Michel Bock, Lucie Hotte et François Charbonneau. Avec des contributions de Joël Beddows, Kenza Benali, Philippe Couton, Jean-Philippe Croteau, Marie Hélène Eddie, Pierre Foucher, Yves Frenette, Paul L. G|4798888740784|T644AF2C07HL0U7IW4ZLZBI|Y
+1000042|Make Way for Her|The University Press of Kentucky|Katie Cortese|4933634145824|CUNA65VW8GDK85T06AY2M5X|Y
+1000043|The Terrorist Argument|Brookings Institution Press|Christopher C. Harmon|5214407917982|9HJVHOYYHSIG5RDO7N8NZ0Y|Y
+1000044|Recording Village Life|University of Michigan Press|Jennifer A. Cromwell|5419015215841|VJQF8DQC7XKZ63MOLUCATU1|Y
+1000045|Land, Politics, and Memory in Five Nija'ib' K'iche' Títulos|University Press of Colorado||5446360446115|TWKBZDDDINSX0BOU0FXHUMS|Y
+1000046|Epidemic|Brookings Institution Press|Reid  Wilson|5635772360092|QO1GGAR2WC7VU1X4TESX3Y3|Y
+1000047|El movimiento obrero y las izquierdas en América Latina|Editorial A Contracorriente|Hernán Camarero|5689534581748|86QM2N10RV8D1CMFLRHFS54|Y
+1000048|Veer Ecology|University of Minnesota Press|Jeffrey Jerome Cohen|5827078766073|227FIHZYZFJ7P4NZSH60HDG|Y
+1000049|Androgyny|The Chinese University Press|CHOW Yiu Fai |5984244520849|J1LEZT03ZD6P6OIM1FERFO2|Y
+1000050|Crítica de la razón andina|Editorial A Contracorriente|Carlos Abreu Mendoza|6015802574250|FZ59T2X32DBVMUWF9OPIK02|Y
+1000051|El movimiento obrero y las izquierdas en América Latina|Editorial A Contracorriente|Hernán Camarero|6082546934521|KUCP5C05XZY5B8MBA7RMCYG|Y
+1000052|Humanitarian Hypocrisy|Cornell University Press|Andrea L. Everett|6179656267188|V7N4FRHG6KDJ8MPG9CO6FLH|Y
+1000053|Angel of Tigers|The Chinese University Press|Lorna CROZIER|6249798453822|1VFMYZFIL0UV82MJUXBI05V|Y
+1000054|Finding Voice|University of Michigan Press|Kim S. Berman|6617348346243|IROLDJFJEJJOBQIZ9X3QKCP|Y
+1000055|Singing Yoruba Christianity|Indiana University Press|Vicki L. Brennan|6745406852155|OG02WAP3L4741M28P03L43H|Y
+1000056|Destined for Greatness|Rutgers University Press|Ramirez, Michael|6766510990168|2REULAEMF19WN8Q4U825SPN|Y
+1000057|Public Privates|UNP - Nebraska|Marcia R. England|6768726879419|BS4K6HRBOOIJ3LT0AGJJO4M|Y
+1000058|Superhumanity|University of Minnesota Press|Nick Axel|6911623332291|BE8YQMK9KAX9646QIKZ958S|Y
+1000059|Kenneth Burke's Permanence and Change|University of South Carolina Press|Ann George|6921755271484|X0SNGMB10P0FDSS9D3DW96M|Y
+1000060|Understanding Francisco Goldman|University of South Carolina Press|Ariana E. Vigil|7020098817753|9GTEWKSXTUEZEFUUUQCHTEL|Y
+1000061|Congo Inc.|Indiana University Press|In Koli Jean Bofane|7048942134148|KAERKQ77H5WY2Q5LWEBOFXR|Y
+1000062|Between Foreign and Family|Rutgers University Press|Lee, Helene K|7138377279406|I6AD65GKCH0TCQETFCE283X|Y
+1000063|The Future of Work|Brookings Institution Press|Darrell M. West|7168855423918|RGFZWA2GRPIK6IO60RLSDWA|Y
+1000064|Selected Works of Abbot Suger of Saint Denis|Catholic University of America Press|Translated with Introduction and Notes by Richard Cusimano and Eric Whitmore|7219998189803|32Q7TXWQRB0239KLS6IU25B|Y
+1000065|A Capsule Aesthetic|University of Minnesota Press|Kate Mondloch|7296814569044|I7WADTL68X8P8XNHOBOQFBS|Y
+1000066|The Amazing Mr. Morality|West Virginia University Press|author|7492805972082|1VDNO33GZEIWEC4C1FQ9098|Y
+1000067|The Essential Caputo|Indiana University Press|Edited by B. Keith Putt|7493455842336|1UM8I0AU6SACRLUN20P92K0|Y
+1000068|Youth Media Matters|University of Minnesota Press|Korina M. Jocson|7611828243996|YSODJRXWB78GVS6X42FWO4G|Y
+1000069|The Modernist Corpse|University of Minnesota Press|Erin E. Edwards|7662334545825|KG3XOZAB3QC9YF450T71BAW|Y
+1000070|Dissensual Subjects|Northwestern University Press|Andrew C. Rajca|7734926699437|69N16C3RAB760R8DNALCDQ7|Y
+1000071|Black Litigants in the Antebellum American South|The University of North Carolina Press|Kimberly M. Welch|7833438051107|XIXHMGQT4QO5KCNDF8DZ29B|Y
+1000072|The Opinion of Mankind|Princeton University Press|Paul Sagar|7881686828228|3ZDOLWBL4TMKGPCV13YKRUV|Y
+1000073|Butterfly Gardening|Princeton University Press|Jane Hurwitz|7914354137689|3H8GKF40CZJJ63XKCIIQKJW|Y
+1000074|Leading Colleges and Universities|Johns Hopkins University Press|edited by Stephen Joel Trachtenberg, Gerald B. Kauvar, and E. Gordon Gee|8060375181085|QNLJPXAR6GH2LU9WZPKHO20|Y
+1000075|My Exaggerated Life|University of South Carolina Press|Katherine Clark|8124252489974|M3CNPBU5TRMR66ET77VJIG0|Y
+1000076|A New City O/S|Brookings Institution Press|Stephen Goldsmith|8168999244041|5R3DZP1L6G45WTH9HPO977P|Y
+1000077|Garden Insects of North America|Princeton University Press|Whitney Cranshaw &amp; David Shetlar|8176444357632|J3MA12HQX9A6LJH4I4SW89G|Y
+1000078|Narratives of Educating for Sustainability in Unsustainable Environments|Michigan State University Press||8183231558924|7L3YPNUA1HTZ5Q8PCN0TVTC|Y
+1000079|Sustaining Wildlands|University of Arizona Press|Edited by Aaron J. Poe and Randy Gimblett|8268733841965|5TGN32U5959Y6HXPUQWZB9S|Y
+1000080|Monkey Trouble|Fordham University Press|Christopher Peterson|8273010973364|UBSCKOA1WXQ3HY5OIAEVZ4H|Y
+1000081|Freud's Jaw and Other Lost Objects|Fordham University Press|Lana Lin|8362136183786|XW4B0HIJ3SF1QKYUV2MNZBJ|Y
+1000082|Derrida after the End of Writing|Fordham University Press|Clayton Crockett|8385902449073|CMWK9UZ4CWWIF4L9OH0O8DU|Y
+1000083|Imperfect Pregnancies|Johns Hopkins University Press|Ilana Löwy|8466359972715|ZF5HZ6N1RYW5ON5R91H6QE8|Y
+1000084|Stranger God|Augsburg Fortress Publishers|By Richard Beck|8712775696620|WP8FZYKK39MS1BQ2Q5KV7OW|Y
+1000085|Field Guide to the Fishes of the Amazon, Orinoco, and Guianas|Princeton University Press|Edited by Peter van der Sleen &amp; James S. Albert|8763439670772|CDQFQWMSBW8K6GMJZ3GRVP9|Y
+1000086|Care of the Species|University of Minnesota Press|John Hartigan Jr.|8932023098686|9G368ZMYFXE9TBQ1MUQNFL4|Y
+1000087|Disputed Temple|Augsburg Fortress Publishers|By John Robert Barker|8933430402716|Q89PR2K1CSEJQIHV14L27OT|Y
+1000088|The Modoc War|UNP - Bison Books|mcnally|8975230265147|A27QEFTDDS2WUEQDEHJ9ZCI|Y
+1000089|Abracadabra|University of Nevada Press||8980305576982|TBVIZQWO1X0YDRQRZMF8KUH|Y
+1000090|Saving Images|Augsburg Fortress Publishers|By Gordon W. Lathrop|9051462584927|C017OFZ5R053LNDFF20SYWR|Y
+1000091|Morta Las Vegas|UNP - Nebraska|Nathaniel Lewis|9288073754802|CPGBOIT35JE4QR5PO8KHL9L|Y
+1000092|Johannine Ethics|Augsburg Fortress Publishers|By Christopher W. Skinner and Sherri Brown|9366998343408|NKXFKB728TR43ZPD63T9YOL|Y
+1000093|Indigenous Cities|UNP - Nebraska|Laura M. Furlan|9383814700681|J5LAHHO54RJ3G1TPPMZTFF4|Y
+1000094|The Unity of Theology|Augsburg Fortress Publishers|By Theodore James Whapham|9560201927872|2HPTFDHFWLSJ1YR6JNJ402U|Y
+1000095|Hitchhiker|The University Press of Kentucky|Bob Thompson. foreword by Roberta Simpson Brown|9771774544406|SEFVRKO33IMKEPAZZBA33SP|Y
+1000096|A Girl's A Gun|The University Press of Kentucky|Rachel Danielle Peterson|9852746899062|OTEZ35Y0CLJGSSB8YK9RMO8|Y
+1000097|Sovereign Acts|University of Arizona Press|Edited by Frances Negrón-Muntaner|9860660534768|UJT3GVIGXC43PFVGR2DSR0J|Y
+1000098|Mimetic Theory and World Religions|Michigan State University Press||9935626426799|07H4KA1SOUYRH83FCA9BQ7M|Y
+1000099|The Rhetoric of Jesus in the Gospel of Mark|Augsburg Fortress Publishers|By Michael Strickland and David M. Young|9988200749057|ZPJBAJRUQX8R8UCV04IG7EO|Y
