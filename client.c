@@ -118,7 +118,7 @@ void PrintClientInfo(Client *cli) {
 		printf("================\n");
 }
 
-void PrintNodes(Client *cli) {
+void PrintClientNodes(Client *cli) {
 	Client *p = cli->next;
 	while(p != NULL) {
 		PrintClientInfo(p);

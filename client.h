@@ -36,7 +36,7 @@ int SearchClient(Client *head, int type);
 void PrintClientInfo(Client *cli);
 //Client 구조체의 정보 출력
 
-void PrintNodes(Client *cli);
+void PrintClientNodes(Client *cli);
 //Client 링크드리스트 노드 정보 출력
 
 void ClientFile2Node(Client *head);
