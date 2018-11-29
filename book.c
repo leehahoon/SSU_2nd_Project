@@ -163,3 +163,25 @@ void returnBook(Book *head, int bookNum) {
 
     return;
 }
+
+void BookFile2Node(Borrow *head) {
+    FILE * fp = fopen("txt_files/book.txt", "r");
+    Book * book = (Book*)malloc(sizeof(Book));
+
+    while (fscanf(fp, "%d|%s|%s|%lld|%s|%c\n", &book->bookNum,
+                &book->bookName, &book->author, &book->isbn, &book->location, &lendAble) != EOF){
+        AddBook(head, book);
+    }
+}
+
+void BookNode2File(Borrow *head) {
+    FILE * fp = fopen("txt_files/book.txt", "w");
+    Book * p = head;
+    while (p != NULL) {
+        fprintf(fp, "%07d|%s|%s|%lld|%s|%c\n", book->bookNum,
+                book->bookName, book->author, book->isbn, book->location, lendAble);
+        p = p->next;
+    }
+
+    fclose(fp);
+}
