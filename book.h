@@ -8,7 +8,7 @@ typedef struct Book {
     char *bookName;			// 책 이름
     char *location;			// 위치
     char *publish;			// 출판사
-    char *isbn;				// ISBN
+    long long *isbn;		// ISBN
     int bookNum;			// 책 번호
 } Book;
 
@@ -22,10 +22,13 @@ int IsSubstring(char *A, char *B); // KMP algorithm written by Wookje Kwon
 
 /*********************************************************
  * *target: 검색할 문자열 포인터
+ * ISBN이 long long임에 유의
+ * ISBN으로 검색하는 경우: *target은 아무거나, targetIsbn에 값 전달
+ * 그 외의 경우: *target에 검색할 거, targetIsbn에 아무거나
  * searchType: 1도서명, 2출판사, 3ISBN, 4저자명, 5전체
  * searchType: 5의 경우 target은 아무거나 넣어주면 됨
 **********************************************************/
-void SearchBook(Book *head, char *target, int searchType);
+void SearchBook(Book *head, char *target, long long targetIsbn, int searchType);
 
 
 /*********************************************************

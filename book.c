@@ -5,7 +5,7 @@ void PrintBookInfo(Book *cur) {
     printf("* 도서명: %s\n", cur->bookName);
     printf("* 출판사: %s\n", cur->publish);
     printf("* 저자명: %s\n", cur->author);
-    printf("* ISBN: %s\n", cur->isbn);
+    printf("* ISBN: %lld\n", cur->isbn);
     printf("* 소장처: %s\n", cur->location);
     printf("* 대여가능 여부: %c\n", cur->lendAble);
     printf("-----------------------------\n");
@@ -39,12 +39,13 @@ int IsSubstring(char *A, char *B) {
     return 0;
 }
 
-void SearchBook(Book *head, char *target, int searchType) {
+void SearchBook(Book *head, char *target, long long targetIsbn, int searchType) {
     Book *cur = head;
 
     while (cur->nxt != NULL) {
         int flag = 0;
         char *temp;
+        long long t_isbn;
 
         cur = cur->nxt;
 
@@ -53,16 +54,19 @@ void SearchBook(Book *head, char *target, int searchType) {
         } else if (searchType == 2) {
             temp = cur->publish;
         } else if (searchType == 3) {
-            temp = cur->isbn;
+            t_isbn = cur->isbn;
         } else if (searchType == 4) {
             temp = cur->author;
         }
 
-        flag = IsSubstring(temp, target);
-
         if (searchType == 5) {
-            flag = 0;
+            flag = 1;
+        } else if (searchType != 3) {
+            flag = IsSubstring(temp, target);
+        } else {
+            flag = (targetIsbn == t_isbn);
         }
+
 
         if (flag) {
             PrintBookInfo(cur);
@@ -75,7 +79,7 @@ void SearchBook(Book *head, char *target, int searchType) {
 void AddBook(Book *head, Book book) {
     Book *cur = head;
 
-    while (cur->nxt != NULL && strcmp(cur->nxt->isbn, book.isbn) < 0) {
+    while (cur->nxt != NULL && cur->nxt->isbn < book.isbn) {
         cur = cur->nxt;
     }
 
