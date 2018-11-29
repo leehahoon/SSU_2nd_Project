@@ -8,7 +8,7 @@ typedef struct Book {
     char *bookName;			// 책 이름
     char *location;			// 위치
     char *publish;			// 출판사
-    long long *isbn;		// ISBN
+    long long isbn;		    // ISBN
     int bookNum;			// 책 번호
 } Book;
 
