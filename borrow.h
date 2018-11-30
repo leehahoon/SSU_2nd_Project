@@ -38,3 +38,6 @@ void PrintBorrowInfo(Borrow *brw, char *bookName);
 
 void PrintBorrowNodes(Borrow *brw);
 //Borrow 링크드리스트 노드 출력
+
+int IsDelete(Borrow *brw, int stdNum);
+//현재 회원탈퇴가 가능한 회원인지 검사

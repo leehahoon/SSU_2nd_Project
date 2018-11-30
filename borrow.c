@@ -129,3 +129,14 @@ void PrintBorrowNodes(Borrow *brw) {
 	}
 	puts("");
 }
+
+int IsDelete(Borrow *brw, int stdNum) {
+	Borrow *p = brw->next;
+	while(p != NULL) {
+		if(p->stdNum == stdNum)
+			return 0;
+		
+		p = p->next;
+	}
+	return 1;
+}

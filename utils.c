@@ -16,6 +16,7 @@ void MemberMenu(int stdNum){
 		puts("3. 개인정보 수정\t4. 회원 탈퇴");
 		puts("5. 로그아웃\t\t6. 프로그램 종료");
 		printf("번호를 선택하세요 : "); scanf("%d", &menu);
+		puts("");
 
 		switch(menu){
 			case 1:
@@ -23,7 +24,7 @@ void MemberMenu(int stdNum){
 				break;
 
 			case 2:
-				puts("\n>> 내 대여 목록 <<");
+				puts(">> 내 대여 목록 <<");
 				int lendlist=0;
 				Borrow *p = brw_head->next;
 				Book *o = book_head->nxt;
@@ -41,17 +42,23 @@ void MemberMenu(int stdNum){
 					}
 					p = p->next;
 				}
-				if(!lendlist) puts("대여 목록이 없습니다.");
+				if(!lendlist) puts("대여 목록이 없습니다.\n");
 				free(p); free(o);
 				
 				break;
 
 			case 3:
-				puts("개인정보 수정");
+				puts(">> 개인정보 수정 <<");
+				ModifyClient(cli_head, stdNum);
 				break;
 
 			case 4:
-				puts("회원 탈퇴");
+				puts(">> 회원 탈퇴 <<");
+				if(IsDelete(brw_head, stdNum)){
+					DeleteClient(cli_head, stdNum);
+					puts("회원 탈퇴가 완료되었습니다.");
+				}
+				else puts("현재 대여중인 도서가 존재합니다.\n도서를 모두 반납한 후, 시도해주세요.\n");
 				break;
 
 			case 5:

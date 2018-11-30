@@ -40,9 +40,9 @@ void DeleteClient(Client *head, int stdNum){
 
 void ModifyClient(Client *head, int stdNum){
 	char buf[100];
-
 	Client *cli = head->next;
-	while(cli->next->stdNum != stdNum){
+
+	while(cli->stdNum != stdNum){
 		cli = cli->next;
 	}
 
@@ -50,10 +50,9 @@ void ModifyClient(Client *head, int stdNum){
 		puts("회원 정보 X");
 		return;
 	}
-	cli = cli->next;
+	
 	free(cli->pw); free(cli->address); free(cli->dial);
 
-	puts(">> 회원정보 수정 <<");
 	printf("비밀번호 : "); scanf(" %[^\n]", buf);
 	strAllocate(&cli->pw, buf);
 
