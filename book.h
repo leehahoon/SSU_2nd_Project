@@ -58,10 +58,10 @@ void returnBook(Book *head, int bookNum);
 /*********************************************************
  * 파일 불러오기
 **********************************************************/
-void BookFile2Node(Borrow *head);
+void BookFile2Node(Book *head);
 
 
 /*********************************************************
  * 파일 저장하기
 **********************************************************/
-void BookNode2File(Borrow *head);
+void BookNode2File(Book *head);
