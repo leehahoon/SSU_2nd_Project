@@ -32,14 +32,16 @@ void DeleteBorrow(Borrow *head, int bookNum){
 	BorrowNode2File(p);
 }
 
-void LendList(Borrow *head, int stdNum) {
-	Borrow *p = head->next;
+Borrow* LendList(Borrow *brw_head, int stdNum) {
+	Borrow *p = brw_head->next;
 	while(p->next != NULL){
 		if(p->stdNum == stdNum) {
-			PrintBorrowInfo(p);
+			return p;
 		}
 		p = p->next;
 	}
+	free(p);
+	return 0;
 }
 
 void BorrowFile2Node(Borrow *head) {
@@ -102,13 +104,13 @@ char* getDay(struct tm *t){
 	return day;
 }
 
-void PrintBorrowInfo(Borrow *brw) {
+void PrintBorrowInfo(Borrow *brw, char *bookName) {
 	struct tm * lend_t = localtime(&brw->lendDate);
 	struct tm * return_t;
 
-	printf("================\n");
-	printf("학번 : %d\n", brw->stdNum);
+	printf("=========================================================\n");
 	printf("도서 번호 : %d\n", brw->bookNum);
+	printf("도서명 : %s\n", bookName);
 	printf("대여 일자 : %d년  %d월 %d일 %s\n", lend_t->tm_year + 1900, lend_t->tm_mon + 1, \
 		lend_t->tm_mday, getDay(lend_t));
 
@@ -116,13 +118,13 @@ void PrintBorrowInfo(Borrow *brw) {
 
 	printf("반납 일자 : %d년  %d월 %d일 %s\n", return_t->tm_year + 1900, return_t->tm_mon + 1, \
 		return_t->tm_mday, getDay(return_t));
-	printf("================\n");
+	printf("========================================================\n\n");
 }
 
 void PrintBorrowNodes(Borrow *brw) {
 	Borrow *p = brw->next;
 	while(p != NULL) {
-		PrintBorrowInfo(p);
+		PrintBorrowInfo(p, "a");
 		p = p->next;
 	}
 	puts("");

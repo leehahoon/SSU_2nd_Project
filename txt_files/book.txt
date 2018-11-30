@@ -1,5 +1,5 @@
 1000000|The Real Horse|University of Arizona Press|Farid Matuk|1112615001377|N59HEQJ7KJZCDIDMG2TNERO|Y
-1000001|World Class|University Press of New England|Peggy Shinn|1156529454240|H0X5PZX1PXJK7RNTB6DI461|Y
+1000001|World Class|University Press of New England|Peggy Shinn|1156529454240|H0X5PZX1PXJK7RNTB6DI461|N
 1000002|Composition, Rhetoric, and Disciplinarity|Utah State University Press|BMH29|1252908489397|U16MBBJ7XRSYRDUCAQJW9FS|Y
 1000003|The Eclipse of the Utopias of Labor|Fordham University Press|Anson Rabinbach|1341223315713|MUC3OEXLP04CO2N80FM0FDY|Y
 1000004|The Man in Song|University of Arkansas Press|SGHAB|1437971844300|E74Y6I08ABGBAJW00EE73F8|Y
@@ -20,14 +20,14 @@ Edited by D. Graham Burnett, Matthew Rickard &amp; Jessica Terekhov|252417905947
 1000018|Forty Minutes to Glory|The University Press of Kentucky|Doug Brunk. forewords by Larry Vaught and Tom Leach. featuring chapters by Jack Givens, Joe B. Hall, and others|3100127272772|OVUGGKVVD93RV6CG6JWH4CA|Y
 1000019|Respectability and Reform|Syracuse University Press|Tara M. McCarthy|3119136824703|TT62FEURYCOJSAJKSIUJAA1|Y
 1000020|Poetry for Beginners|The Chinese University Press|Gabeba BADEROON|3225718874973|YIXC34G13BUMJSRPVXVDVBP|Y
-1000021|Black Bone|The University Press of Kentucky|edited by Bianca Lynne Spriggs and Jeremy Paden.|3230643609611|X5WGA0P08OBOM938VSA98GL|Y
+1000021|Black Bone|The University Press of Kentucky|edited by Bianca Lynne Spriggs and Jeremy Paden.|3230643609611|X5WGA0P08OBOM938VSA98GL|N
 1000022|The Question of Raising Cranes|The Chinese University Press|CHEN Xianfa|3242990164102|OOAKW4QVZ9WBACZPRU0F31U|Y
-1000023|La Patria Nueva|Editorial A Contracorriente|Paulo Drinot|3367555169826|AUN1CTD0FLNMBYI0KIB3O3R|Y
+1000023|La Patria Nueva|Editorial A Contracorriente|Paulo Drinot|3367555169826|AUN1CTD0FLNMBYI0KIB3O3R|N
 1000024|Parting Words|University of Virginia Press|Justin A. Sider|3450297606898|42Q1Z46TQ8N40EEX2IPJF9A|Y
 1000025|Svay|Cornell University Press|May Mayko Ebihara&lt;BR&gt;edited by Andrew Mertha&lt;BR&gt;introduction by Judy Ledgerwood|3463085305592|RSB2JGAYMBWO4B2Y114XTCX|Y
 1000026|Power Button|The MIT Press|Rachel Plotnick|3529171601932|XXNHCY19DFUZ69DU53SAAK1|Y
-1000027|Cahuilla Nation Activism and the Tribal Casino Movement|University of Nevada Press|Theodor P. Gordon|3549714187793|YR4N15U25QQI434G709EO35|Y
-1000028|Flames of Discontent|University of Minnesota Press|Gary Kaunonen|3678156009029|8AGOK67C1T7DBV6KQG1OYHV|Y
+1000027|Cahuilla Nation Activism and the Tribal Casino Movement|University of Nevada Press|Theodor P. Gordon|3549714187793|YR4N15U25QQI434G709EO35|N
+1000028|Flames of Discontent|University of Minnesota Press|Gary Kaunonen|3678156009029|8AGOK67C1T7DBV6KQG1OYHV|N
 1000029|Narrative of the Life and Adventures of Henry Bibb, An American Slave, Written by Himself|University of North Carolina at Chapel Hill Library|Henry Bibb|3773813295473|L4XBOTEMDSJ5ERNF44BYKZK|Y
 1000030|I'm Not Like Everybody Else|UNP - Nebraska|Jeffrey T. Nealon|3809830509332|BTBPKTOW74AOFR877XFTXX1|Y
 1000031|Consciousness Demystified|The MIT Press|Todd E. Feinberg and Jon M. Mallatt|3816022639539|9SUH0PRGJ26GSZI6FG51IIE|Y
@@ -36,10 +36,10 @@ Edited by D. Graham Burnett, Matthew Rickard &amp; Jessica Terekhov|252417905947
 1000034|The Palestinian National Revival|Indiana University Press|Moshe Shemesh|4018593839232|GFD5O4ZU3WSGNSF38W8AU3K|Y
 1000035|Queen of Heaven|University of Notre Dame Press|Lilla Grindlay|4053615375058|XAFYYRWDYF4KDNQFDDEBW9Z|Y
 1000036|Moving Beyond the Impasse|Augsburg Fortress Publishers|By S. Wesley Ariarajah|4087676591517|ED25VKIGE32H67PHWW1Q7YZ|Y
-1000037|Bioarchaeology of Pre-Columbian Mesoamerica|University Press of Florida|Edited by Cathy Willermet and Andrea Cucina|4346716172424|XC5MJSFU9KJFSHL1S7HFJCU|Y
-1000038|Black Hole Factory|University of Tampa Press|Poems by Eric Smith|4383533664120|WLM6WIIPJ4GUAFLGO15XVWW|Y
+1000037|Bioarchaeology of Pre-Columbian Mesoamerica|University Press of Florida|Edited by Cathy Willermet and Andrea Cucina|4346716172424|XC5MJSFU9KJFSHL1S7HFJCU|N
+1000038|Black Hole Factory|University of Tampa Press|Poems by Eric Smith|4383533664120|WLM6WIIPJ4GUAFLGO15XVWW|N
 1000039|Our Selfish Tax Laws|The MIT Press|Anthony C. Infanti|4409170698154|6TJUWPLHYPJFZ5Q719HPS8V|Y
-1000040|In Defense of Israel|Brookings Institution Press|Moshe  Arens|4445895327467|JW7ZLL35Z49B5ZVI3VRACU7|Y
+1000040|In Defense of Israel|Brookings Institution Press|Moshe  Arens|4445895327467|JW7ZLL35Z49B5ZVI3VRACU7|N
 1000041|Ottawa, lieu de vie français|University of Ottawa Press|Sous la direction de Anne Gilbert, Linda Cardinal, Michel Bock, Lucie Hotte et François Charbonneau. Avec des contributions de Joël Beddows, Kenza Benali, Philippe Couton, Jean-Philippe Croteau, Marie Hélène Eddie, Pierre Foucher, Yves Frenette, Paul L. G|4672128260893|6S74GQLN3TKYVJRC3TCQKIZ|Y
 1000042|Make Way for Her|The University Press of Kentucky|Katie Cortese|4769882282236|BGQ9ZC0LF7QFZDR5PQYXUF4|Y
 1000043|The Terrorist Argument|Brookings Institution Press|Christopher C. Harmon|4851983017386|G5ZI0MX1L2DJVO4VCSO8341|Y
@@ -51,11 +51,11 @@ Edited by D. Graham Burnett, Matthew Rickard &amp; Jessica Terekhov|252417905947
 1000049|Androgyny|The Chinese University Press|CHOW Yiu Fai |5470526472539|9QEQECIKLSUVLJYW40YB37F|Y
 1000050|Crítica de la razón andina|Editorial A Contracorriente|Carlos Abreu Mendoza|5624571914294|Y0OZOP94Y7CX18M6QAIJBTO|Y
 1000051|El movimiento obrero y las izquierdas en América Latina|Editorial A Contracorriente|Hernán Camarero|5669058641053|26UB79RV9URG3Q3C2NJ892D|Y
-1000052|Humanitarian Hypocrisy|Cornell University Press|Andrea L. Everett|5750791588944|PN0OVDW93V9FLP59R2FAAZM|Y
+1000052|Humanitarian Hypocrisy|Cornell University Press|Andrea L. Everett|5750791588944|PN0OVDW93V9FLP59R2FAAZM|N
 1000053|Angel of Tigers|The Chinese University Press|Lorna CROZIER|5757573249026|0MYO0DDH6OKVMCONV19P5DL|Y
 1000054|Finding Voice|University of Michigan Press|Kim S. Berman|5863053862555|KCUEYGIKULZ3O4S8F3ROAV8|Y
 1000055|Singing Yoruba Christianity|Indiana University Press|Vicki L. Brennan|5891568824534|WFLO9LCTGO5ESVHUNWGT9L1|Y
-1000056|Destined for Greatness|Rutgers University Press|Ramirez, Michael|5963799019459|T3WCR45XF05H7QTBGVP6Y86|Y
+1000056|Destined for Greatness|Rutgers University Press|Ramirez, Michael|5963799019459|T3WCR45XF05H7QTBGVP6Y86|N
 1000057|Public Privates|UNP - Nebraska|Marcia R. England|5991420292217|J4P8M78QDD1R08FEPQ4RZEJ|Y
 1000058|Superhumanity|University of Minnesota Press|Nick Axel|6057550371331|AKQRJ1IWQ38KH6VJDBVH7JW|Y
 1000059|Kenneth Burke's Permanence and Change|University of South Carolina Press|Ann George|6058731823408|W3NHNRQ0CUUCH49WTQSESZG|Y
@@ -63,16 +63,16 @@ Edited by D. Graham Burnett, Matthew Rickard &amp; Jessica Terekhov|252417905947
 1000061|Congo Inc.|Indiana University Press|In Koli Jean Bofane|6183925289863|5FK9E1GLAA3OJ4HN6678QG1|Y
 1000062|Between Foreign and Family|Rutgers University Press|Lee, Helene K|6318270812758|Q6OPX50TDQNJZ83E0FP3UC7|Y
 1000063|The Future of Work|Brookings Institution Press|Darrell M. West|6381718693652|K4RGMJGLNEJK31I76UV03SC|Y
-1000064|Selected Works of Abbot Suger of Saint Denis|Catholic University of America Press|Translated with Introduction and Notes by Richard Cusimano and Eric Whitmore|6429043073864|UWCJ4ST0PAC5BLS12EPNQS5|Y
+1000064|Selected Works of Abbot Suger of Saint Denis|Catholic University of America Press|Translated with Introduction and Notes by Richard Cusimano and Eric Whitmore|6429043073864|UWCJ4ST0PAC5BLS12EPNQS5|N
 1000065|A Capsule Aesthetic|University of Minnesota Press|Kate Mondloch|6607897551896|48QR0WT51DQKK5HVUYVRT2A|Y
 1000066|The Amazing Mr. Morality|West Virginia University Press|author|6661316121574|LTXQFSD5OOU3DPZTN3SOVSB|Y
-1000067|The Essential Caputo|Indiana University Press|Edited by B. Keith Putt|6684210879766|JIRHDY9NQ41Q514DICAOUSR|Y
+1000067|The Essential Caputo|Indiana University Press|Edited by B. Keith Putt|6684210879766|JIRHDY9NQ41Q514DICAOUSR|N
 1000068|Youth Media Matters|University of Minnesota Press|Korina M. Jocson|6738515540021|MJE94JOV3CWKX5V7LNMJF16|Y
 1000069|The Modernist Corpse|University of Minnesota Press|Erin E. Edwards|6750055805207|G6I7RT7H7LLU61OLAROQHNB|Y
 1000070|Dissensual Subjects|Northwestern University Press|Andrew C. Rajca|6763262351075|KACPZX6760JOPFNPVO9RHHR|Y
 1000071|Black Litigants in the Antebellum American South|The University of North Carolina Press|Kimberly M. Welch|6842149476824|RUJK7BQDZPLI83C1YO1X328|Y
-1000072|The Opinion of Mankind|Princeton University Press|Paul Sagar|6853928572630|97CBVQSY7TE10P3E9L8RSA5|Y
-1000073|Butterfly Gardening|Princeton University Press|Jane Hurwitz|6861626766809|7I4U1S5DAYRKPE9FQVZLGRR|Y
+1000072|The Opinion of Mankind|Princeton University Press|Paul Sagar|6853928572630|97CBVQSY7TE10P3E9L8RSA5|N
+1000073|Butterfly Gardening|Princeton University Press|Jane Hurwitz|6861626766809|7I4U1S5DAYRKPE9FQVZLGRR|N
 1000074|Leading Colleges and Universities|Johns Hopkins University Press|edited by Stephen Joel Trachtenberg, Gerald B. Kauvar, and E. Gordon Gee|6927825132344|D2PJOLMUJVWPG7UR8ODAU9Q|Y
 1000075|My Exaggerated Life|University of South Carolina Press|Katherine Clark|7145780916747|BR57TF9KBOXV2Y2FX6OXQ08|Y
 1000076|A New City O/S|Brookings Institution Press|Stephen Goldsmith|7176530778167|APMO5OVP8B72OQTJ3H4MUEC|Y
@@ -80,18 +80,18 @@ Edited by D. Graham Burnett, Matthew Rickard &amp; Jessica Terekhov|252417905947
 1000078|Narratives of Educating for Sustainability in Unsustainable Environments|Michigan State University Press|MMGKS|7290373282462|Q4XZMNPY2EJNBDS595MZAFG|Y
 1000079|Sustaining Wildlands|University of Arizona Press|Edited by Aaron J. Poe and Randy Gimblett|7450836159306|VVYSTT729JHNHJ5ZH0KQ4KW|Y
 1000080|Monkey Trouble|Fordham University Press|Christopher Peterson|7457443809484|VNW9N45O52X0AZ3JP3YN7Z2|Y
-1000081|Freud's Jaw and Other Lost Objects|Fordham University Press|Lana Lin|7686342667701|5CRGHFTFK00JTQ7QKIZALP5|Y
+1000081|Freud's Jaw and Other Lost Objects|Fordham University Press|Lana Lin|7686342667701|5CRGHFTFK00JTQ7QKIZALP5|N
 1000082|Derrida after the End of Writing|Fordham University Press|Clayton Crockett|7893604417721|5UQJLKZQ7EUAB0WPGBN3OPZ|Y
-1000083|Imperfect Pregnancies|Johns Hopkins University Press|Ilana Löwy|7973099090153|LLZPFWL3NPXP1A6B0J1LA4G|Y
-1000084|Stranger God|Augsburg Fortress Publishers|By Richard Beck|7989267778515|JWQD7756O139O8AEJQGEYRZ|Y
+1000083|Imperfect Pregnancies|Johns Hopkins University Press|Ilana Löwy|7973099090153|LLZPFWL3NPXP1A6B0J1LA4G|N
+1000084|Stranger God|Augsburg Fortress Publishers|By Richard Beck|7989267778515|JWQD7756O139O8AEJQGEYRZ|N
 1000085|Field Guide to the Fishes of the Amazon, Orinoco, and Guianas|Princeton University Press|Edited by Peter van der Sleen &amp; James S. Albert|8023098456237|8I1ML4E2JBBE18R7DRH15FF|Y
-1000086|Care of the Species|University of Minnesota Press|John Hartigan Jr.|8253668441681|JCAX0GR8J05SCNXD1ADOAJZ|Y
+1000086|Care of the Species|University of Minnesota Press|John Hartigan Jr.|8253668441681|JCAX0GR8J05SCNXD1ADOAJZ|N
 1000087|Disputed Temple|Augsburg Fortress Publishers|By John Robert Barker|8257036338056|VWXFOYPEQI7Y6YNM67XBSR8|Y
 1000088|The Modoc War|UNP - Bison Books|mcnally|8509745153597|NF9SJ8YWYL8UCZRU4DOTRQ0|Y
 1000089|Abracadabra|University of Nevada Press|N8KJN|8644505099466|868VK1CMNUE4LW3BO3GEMMR|Y
 1000090|Saving Images|Augsburg Fortress Publishers|By Gordon W. Lathrop|8739809309032|U4FREIQMKJ9OL975YPMW4IU|Y
-1000091|Morta Las Vegas|UNP - Nebraska|Nathaniel Lewis|9009601291112|39ZKN1TGL8OSS6MIP7WB01H|Y
-1000092|Johannine Ethics|Augsburg Fortress Publishers|By Christopher W. Skinner and Sherri Brown|9103380262089|P27OLI5DIB3TMGS5R49D0S0|Y
+1000091|Morta Las Vegas|UNP - Nebraska|Nathaniel Lewis|9009601291112|39ZKN1TGL8OSS6MIP7WB01H|N
+1000092|Johannine Ethics|Augsburg Fortress Publishers|By Christopher W. Skinner and Sherri Brown|9103380262089|P27OLI5DIB3TMGS5R49D0S0|N
 1000093|Indigenous Cities|UNP - Nebraska|Laura M. Furlan|9471959708870|INMF15H69US2XHNU3I80JO9|Y
 1000094|The Unity of Theology|Augsburg Fortress Publishers|By Theodore James Whapham|9711223946796|SZWOASFZB7XKP0NMQAH56RR|Y
 1000095|Hitchhiker|The University Press of Kentucky|Bob Thompson. foreword by Roberta Simpson Brown|9743444288092|UTQ5UMNDH0U1DVI03VEJMCX|Y

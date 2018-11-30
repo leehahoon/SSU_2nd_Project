@@ -4,26 +4,31 @@
 #include "utils.h"
 
 int exit_flag = 0;
+Client * cli_head;
+Book * book_head;
+Borrow * brw_head;
+
 int main(){
 	int menu;
 	char *stdNum;
 	char *pw;
-	Client * cli_head = (Client*)malloc(sizeof(Client));
-	Book * book_head = (Book*)malloc(sizeof(Book));
-	Borrow * brw_head = (Borrow*)malloc(sizeof(Borrow));
+	cli_head = (Client*)malloc(sizeof(Client));
+	book_head = (Book*)malloc(sizeof(Book));
+	brw_head = (Borrow*)malloc(sizeof(Borrow));
 
 	cli_head->next = NULL;
 	book_head->nxt = NULL;
 	brw_head->next = NULL;
 
 	ClientFile2Node(cli_head);
+	BookFile2Node(book_head);
 	BorrowFile2Node(brw_head);
 
 	while(!exit_flag) {
 		puts(">> 도서관 서비스 <<");
 		puts("1. 회원 가입\t2. 로그인\t3. 프로그램 종료");
 		printf("번호를 선택하세요 : "); scanf("%d", &menu);
-
+		puts("");
 		switch(menu) {
 			case 1:
 				puts(">> 회원 가입 <<");
@@ -32,7 +37,8 @@ int main(){
 				if(!RegisterClient(cli_head, regis)) puts("회원가입에 실패하셨습니다.");
 				else puts("회원가입에 성공하셨습니다.");
 				free(regis);
-				sleep(1); system("clear");
+				puts("계속하려면 ENTER를 눌러주세요.");
+				getchar(); getchar(); system("clear");
 				break;
 
 			case 2:
@@ -47,16 +53,19 @@ int main(){
 				login_flag = LoginClient(cli_head, stdNum, pw);
 				if(login_flag == 1) {
 					puts("회원 로그인에 성공하셨습니다.");
-					sleep(1); system("clear");
-					MemberMenu();
+					puts("계속하려면 ENTER를 눌러주세요.");
+					getchar(); getchar(); system("clear");
+					MemberMenu(atoi(stdNum));
 				} else if(login_flag == 2) {
 					puts("관리자 로그인에 성공하셨습니다.");
-					sleep(1); system("clear");
+					puts("계속하려면 ENTER를 눌러주세요.");
+					getchar(); getchar(); system("clear");
 					AdminMenu();
 				} else puts("로그인에 실패하셨습니다.");
 
 				free(pw);
-				sleep(1); system("clear");
+				puts("계속하려면 ENTER를 눌러주세요.");
+				getchar(); getchar(); system("clear");
 				break;
 
 			case 3:
@@ -66,7 +75,8 @@ int main(){
 
 			default:
 				puts("잘못된 입력입니다.");
-				sleep(1); system("clear");
+				puts("계속하려면 ENTER를 눌러주세요.");
+				getchar(); getchar(); system("clear");
 				break;
 		}
 	}

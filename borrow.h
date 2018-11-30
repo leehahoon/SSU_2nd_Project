@@ -15,7 +15,7 @@ void DeleteBorrow(Borrow *head, int bookNum);
 //해당하는 bookNum의 Node 정보를 삭제
 //Borrow *head : 관리하는 링크드리스트의 head 노드 
 
-void LendList(Borrow *head, int stdNum);
+Borrow* LendList(Borrow *head, int stdNum);
 //해당하는 학번의 대여 목록을 출력
 //Borrow *head : 관리하는 링크드리스트의 head 노드 
 //int stdNum : 학번
@@ -33,7 +33,7 @@ time_t getReturnDate(time_t lend_date);
 char* getDay(struct tm *t);
 //해당하는 tm 구조체의 요일 return
 
-void PrintBorrowInfo(Borrow *brw);
+void PrintBorrowInfo(Borrow *brw, char *bookName);
 //Borrow 구조체 정보 출력
 
 void PrintBorrowNodes(Borrow *brw);

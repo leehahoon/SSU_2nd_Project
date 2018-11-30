@@ -168,7 +168,7 @@ void BookFile2Node(Book *head) {
     FILE * fp = fopen("txt_files/book.txt", "r");
     Book book;
 	
-    char buf[4][101];
+    char buf[4][301];
 
     while (fscanf(fp, "%d|%[^|]|%[^|]|%[^|]|%lld|%[^|]|%c\n", &book.bookNum, buf[0],
                 buf[1], buf[2], &book.isbn, buf[3], &book.lendAble) != EOF){
@@ -177,16 +177,13 @@ void BookFile2Node(Book *head) {
         book.author = (char*)malloc(sizeof(char)*(strlen(buf[2])+1));
         book.location = (char*)malloc(sizeof(char)*(strlen(buf[3])+1));
         strcpy(book.bookName, buf[0]);
-        strcpy(book.publish, buf[0]);
-        strcpy(book.author, buf[0]);
-        strcpy(book.location, buf[0]);
+        strcpy(book.publish, buf[1]);
+        strcpy(book.author, buf[2]);
+        strcpy(book.location, buf[3]);
 
         AddBook(head, book);
     }
 
-    for (int i = 0; i < 4; i++) {
-        free(buf[i]);
-    }
     fclose(fp);
     return;
 }

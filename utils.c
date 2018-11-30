@@ -1,7 +1,14 @@
+#include "client.h"
+#include "book.h"
+#include "borrow.h"
 #include "utils.h"
 
 extern int exit_flag;
-void MemberMenu(){
+extern Client * cli_head;
+extern Book * book_head;
+extern Borrow * brw_head;
+
+void MemberMenu(int stdNum){
 	int menu;
 	while(1) {
 		puts(">> 회원 메뉴 <<");
@@ -16,7 +23,27 @@ void MemberMenu(){
 				break;
 
 			case 2:
-				puts("내 대여 목록");
+				puts("\n>> 내 대여 목록 <<");
+				int lendlist=0;
+				Borrow *p = brw_head->next;
+				Book *o = book_head->nxt;
+
+				while(p != NULL){
+					if(p->stdNum == stdNum) {
+						o = book_head->nxt;
+						while(o != NULL) {
+							if(o->bookNum == p->bookNum) {
+								PrintBorrowInfo(p, o->bookName);
+								lendlist=1;
+							}
+							o = o->nxt;
+						}
+					}
+					p = p->next;
+				}
+				if(!lendlist) puts("대여 목록이 없습니다.");
+				free(p); free(o);
+				
 				break;
 
 			case 3:
@@ -39,7 +66,8 @@ void MemberMenu(){
 			default:
 				puts("잘못된 입력입니다.");
 		}
-		sleep(1); system("clear");
+		puts("계속하려면 ENTER를 눌러주세요.");
+		getchar(); getchar(); system("clear");
 	}
 }
 

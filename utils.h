@@ -1,5 +1,5 @@
 #include "common.h"
 
-void MemberMenu();
+void MemberMenu(int stdNum);
 
 void AdminMenu();
