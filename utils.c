@@ -81,13 +81,16 @@ void MemberMenu(int stdNum){
 void AdminMenu(){
 	int menu;
 	int bookNum = 0;
+	int cli_type;
 
 	while(1){
 		puts(">> 관리자 메뉴 <<");
 		puts("1. 도서 등록\t\t2. 도서 삭제");
 		puts("3. 도서 대여\t\t4. 도서 반납");
-		puts("5. 로그아웃\t\t6. 프로그램 종료");
+		puts("5. 도서 검색\t\t6. 회원 목록");
+		puts("7. 로그아웃\t\t8. 프로그램 종료");
 		printf("번호를 선택하세요 : "); scanf("%d", &menu);
+		puts("");
 
 		switch(menu){
 			case 1:
@@ -108,10 +111,25 @@ void AdminMenu(){
 				break;
 
 			case 5:
+				puts("도서 검색");
+				break;
+
+			case 6:
+				puts(">> 회원 목록 <<");
+				puts("1. 이름 검색\t\t2. 학번 검색");
+				puts("3. 전체 검색\t\t4. 이전 메뉴");
+				printf("번호를 선택하세요 : "); scanf("%d", &cli_type);
+				if(cli_type < 4) 
+					SearchClient(cli_head, cli_type);
+				else puts("잘못된 입력입니다.\n");
+
+				break;
+
+			case 7:
 				puts("초기 화면으로 이동합니다.");
 				return;
 
-			case 6:
+			case 8:
 				puts("프로그램이 종료됩니다.");
 				exit_flag=1;
 				return;
@@ -119,6 +137,7 @@ void AdminMenu(){
 			default:
 				puts("잘못된 입력입니다.");
 		}
-		sleep(1); system("clear");
+		puts("계속하려면 ENTER를 눌러주세요.");
+		getchar(); getchar(); system("clear");
 	}
 }
