@@ -68,11 +68,11 @@ void BorrowNode2File(Borrow *head) {
 
 time_t getReturnDate(time_t lend_date){
 	struct tm * t;
-	time_t return_date = time(NULL) + (24 * 60 * 60)*30;
+	time_t return_date = lend_date + (24 * 60 * 60)*30;
 	t = localtime(&return_date);
 
 	if(t->tm_wday == 0) {
-		return_date = time(NULL) + (24 * 60 * 60)*31; 
+		return_date = lend_date + (24 * 60 * 60)*31; 
 	}
 	return return_date;
 }
