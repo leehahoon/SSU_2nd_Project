@@ -70,8 +70,11 @@ int SearchClient(Client *head, int type){
 	char input[100];
 	Client *p = head->next;
 	
-	printf("입력 : ");
-	scanf(" %[^\n]", input);
+	if(type<3){
+		printf("입력 : ");
+		scanf(" %[^\n]", input);
+	}
+	puts("");
 
 	while(p != NULL) {
 		switch(type){
@@ -90,11 +93,8 @@ int SearchClient(Client *head, int type){
 				break;
 
 			case 3:
-				if(p->stdNum ==atoi(input) || !strcmp(p->name, input) \
-					|| !strcmp(p->address, input) || !strcmp(p->dial, input)){
-					PrintClientInfo(p);
-					return 0;
-				}
+				PrintClientNodes(p);
+				return 0;
 				break;
 
 			default:
@@ -103,18 +103,18 @@ int SearchClient(Client *head, int type){
 		}
 		p = p->next;
 	}
-	puts("결과 없음"); 
+	puts("검색 결과가 없습니다.\n"); 
 	return 1;
 }
 
 void PrintClientInfo(Client *cli) {
-		printf("================\n");
-		printf("학번 : %d\n", cli->stdNum);
+		printf("=======================================\n");
+		printf("학 번 : %d\n", cli->stdNum);
 		printf("비밀번호 : %s\n", cli->pw);
-		printf("이름 : %s\n", cli->name);
-		printf("주소 : %s\n", cli->address);
+		printf("이 름 : %s\n", cli->name);
+		printf("주 소 : %s\n", cli->address);
 		printf("전화번호 : %s\n", cli->dial);
-		printf("================\n");
+		printf("=======================================\n\n");
 }
 
 void PrintClientNodes(Client *cli) {
