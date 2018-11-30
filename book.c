@@ -166,19 +166,20 @@ void returnBook(Book *head, int bookNum) {
 
 void BookFile2Node(Book *head) {
     FILE * fp = fopen("txt_files/book.txt", "r");
-    Book * book = (Book*)malloc(sizeof(Book));
+    Book book;
 	
-    char *buf[4];
-    for (int i = 0; i < 4; i++) {
-        buf[i] = (char*)malloc(100);
-    }
+    char buf[4][101];
 
-    while (fscanf(fp, "%d|%[^|]|%[^|]|%[^|]|%lld|%[^|]|%c\n", &book->bookNum, buf[0],
-                buf[1], buf[2], &book->isbn, buf[3], &book->lendAble) != EOF){
-        strAllocate(&book->bookName, buf[0]);
-	strAllocate(&book->publish, buf[1]);
-	strAllocate(&book->author, buf[2]);
-	strAllocate(&book->location, buf[3]);
+    while (fscanf(fp, "%d|%[^|]|%[^|]|%[^|]|%lld|%[^|]|%c\n", &book.bookNum, buf[0],
+                buf[1], buf[2], &book.isbn, buf[3], &book.lendAble) != EOF){
+        book.bookName = (char*)malloc(sizeof(char)*(strlen(buf[0])+1));
+        book.publish = (char*)malloc(sizeof(char)*(strlen(buf[1])+1));
+        book.author = (char*)malloc(sizeof(char)*(strlen(buf[2])+1));
+        book.location = (char*)malloc(sizeof(char)*(strlen(buf[3])+1));
+        strcpy(book.bookName, buf[0]);
+        strcpy(book.publish, buf[0]);
+        strcpy(book.author, buf[0]);
+        strcpy(book.location, buf[0]);
 
         AddBook(head, book);
     }
@@ -194,9 +195,9 @@ void BookNode2File(Book *head) {
     FILE * fp = fopen("txt_files/book.txt", "w");
     Book * p = head;
     while (p != NULL) {
-        fprintf(fp, "%07d|%s|%s|%lld|%s|%c\n", book->bookNum,
-                book->bookName, book->author, book->isbn, book->location, book->lendAble);
-        p = p->next;
+        fprintf(fp, "%07d|%s|%s|%lld|%s|%c\n", p->bookNum,
+                p->bookName, p->author, p->isbn, p->location, p->lendAble);
+        p = p->nxt;
     }
 
     fclose(fp);
