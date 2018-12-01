@@ -28,7 +28,7 @@ void MemberMenu(int stdNum){
 				int lendlist=0;
 				Borrow *p = brw_head->next;
 				Book *o = book_head->nxt;
-
+				printf("%p %p\n", p, o);
 				while(p != NULL){
 					if(p->stdNum == stdNum) {
 						o = book_head->nxt;
@@ -43,7 +43,6 @@ void MemberMenu(int stdNum){
 					p = p->next;
 				}
 				if(!lendlist) puts("대여 목록이 없습니다.\n");
-				free(p); free(o);
 				
 				break;
 
@@ -195,7 +194,6 @@ void AdminMenu(){
 					}
 					else puts("도서 반납이 취소되었습니다.\n");
 				}
-				free(p); free(o);
 				break;
 
 			case 5:

@@ -45,11 +45,6 @@ void ModifyClient(Client *head, int stdNum){
 	while(cli->stdNum != stdNum){
 		cli = cli->next;
 	}
-
-	if(cli->next == NULL) {
-		puts("회원 정보 X");
-		return;
-	}
 	
 	free(cli->pw); free(cli->address); free(cli->dial);
 
