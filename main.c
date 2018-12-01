@@ -34,8 +34,8 @@ int main(){
 				puts(">> 회원 가입 <<");
 				puts("학번, 비밀번호, 이름, 주소, 전화번호를 입력하세요.\n");
 				Client * regis = (Client*)malloc(sizeof(Client));
-				if(RegisterClient(cli_head, regis)) puts("회원가입에 실패하셨습니다.");
-				else puts("회원가입에 성공하셨습니다.");
+				if(RegisterClient(cli_head, regis)) puts("\n회원가입에 실패하셨습니다.");
+				else puts("\n회원가입에 성공하셨습니다.");
 				free(regis);
 				puts("계속하려면 ENTER를 눌러주세요.");
 				getchar(); getchar(); system("clear");

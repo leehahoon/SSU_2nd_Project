@@ -28,7 +28,7 @@ void MemberMenu(int stdNum){
 				int lendlist=0;
 				Borrow *p = brw_head->next;
 				Book *o = book_head->nxt;
-				printf("%p %p\n", p, o);
+
 				while(p != NULL){
 					if(p->stdNum == stdNum) {
 						o = book_head->nxt;
