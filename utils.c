@@ -137,7 +137,7 @@ void AdminMenu(){
 					SearchBook(book_head, "0", ISBN, 3);
 					printf("학번 입력 : "); scanf("%d", &lend_stdNum);
 					printf("도서번호 입력 : "); scanf("%d", &lend_bookNum);
-					printf("\n이 도서를 대여합니다? (Y/N) : "); scanf(" %c", &y_n);
+					printf("\n이 도서를 대여할까요? (Y/N) : "); scanf(" %c", &y_n);
 					if(y_n == 'Y' || y_n == 'y'){
 						if(!lendBook(book_head, lend_bookNum)){
 							brw = (Borrow*)malloc(sizeof(Borrow));
@@ -152,13 +152,50 @@ void AdminMenu(){
 						}
 					}
 					else puts("도서 대여가 취소되었습니다.\n");
-					
+
 				} else puts("잘못된 입력입니다.\n");
 
 				break;
 
 			case 4:
-				puts("도서 반납");
+				puts(">> 도서 반납 <<");
+				printf("학번 입력 : "); scanf("%d", &lend_stdNum);
+				int lendlist=0;
+				Borrow *p = brw_head->next;
+				Book *o = book_head->nxt;
+
+				puts("\n>> 회원의 대여 목록 <<\n");
+				while(p != NULL){
+					if(p->stdNum == lend_stdNum) {
+						o = book_head->nxt;
+						while(o != NULL) {
+							if(o->bookNum == p->bookNum) {
+								PrintBorrowInfo(p, o->bookName);
+								lendlist=1;
+							}
+							o = o->nxt;
+						}
+					}
+					p = p->next;
+				}
+				
+				if(!lendlist) {
+					puts("대여 목록이 없습니다.\n");
+					break;
+				}
+
+				else {
+					printf("반납할 도서번호를 입력하세요 : "); scanf("%d", &lend_bookNum);
+					printf("\n도서 반납처리를 할까요? (Y/N) : "); scanf(" %c", &y_n);
+					if(y_n == 'Y' || y_n == 'y'){
+						if(!returnBook(book_head, lend_bookNum)){
+							DeleteBorrow(brw_head, lend_bookNum);
+							puts("도서 반납이 완료되었습니다.\n");
+						}
+					}
+					else puts("도서 반납이 취소되었습니다.\n");
+				}
+				free(p); free(o);
 				break;
 
 			case 5:

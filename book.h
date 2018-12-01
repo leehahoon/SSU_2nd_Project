@@ -52,7 +52,7 @@ int lendBook(Book *head, int bookNum);
 /*********************************************************
  * bookNum: 반납할 책의 책 번호
 **********************************************************/
-void returnBook(Book *head, int bookNum);
+int returnBook(Book *head, int bookNum);
 
 
 /*********************************************************

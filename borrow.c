@@ -108,17 +108,17 @@ void PrintBorrowInfo(Borrow *brw, char *bookName) {
 	struct tm * lend_t = localtime(&brw->lendDate);
 	struct tm * return_t;
 
-	printf("=========================================================\n");
-	printf("도서 번호 : %d\n", brw->bookNum);
-	printf("도서명 : %s\n", bookName);
-	printf("대여 일자 : %d년  %d월 %d일 %s\n", lend_t->tm_year + 1900, lend_t->tm_mon + 1, \
+	printf("=======================================================\n");
+	printf("* 도서 번호 : %d\n", brw->bookNum);
+	printf("* 도서명 : %s\n", bookName);
+	printf("* 대여 일자 : %d년  %d월 %d일 %s\n", lend_t->tm_year + 1900, lend_t->tm_mon + 1, \
 		lend_t->tm_mday, getDay(lend_t));
 
 	return_t = localtime(&brw->returnDate);
 
-	printf("반납 일자 : %d년  %d월 %d일 %s\n", return_t->tm_year + 1900, return_t->tm_mon + 1, \
+	printf("* 반납 일자 : %d년  %d월 %d일 %s\n", return_t->tm_year + 1900, return_t->tm_mon + 1, \
 		return_t->tm_mday, getDay(return_t));
-	printf("========================================================\n\n");
+	printf("=======================================================\n\n");
 }
 
 void PrintBorrowNodes(Borrow *brw) {

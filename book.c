@@ -144,7 +144,7 @@ int lendBook(Book *head, int bookNum) {
     return 0;
 }
 
-void returnBook(Book *head, int bookNum) {
+int returnBook(Book *head, int bookNum) {
     Book *cur = head;
 
     while (cur->nxt != NULL && cur->nxt->bookNum != bookNum) {
@@ -152,18 +152,19 @@ void returnBook(Book *head, int bookNum) {
     }
 
     if (cur->nxt == NULL) {
-        printf("!!!!!! No Book #%d in DB !!!!!!", bookNum);
-        return;
+        printf("!!!!!! No Book #%d in DB !!!!!!\n", bookNum);
+        return 1;
     }
 
     if (cur->nxt->lendAble == 'Y') {
-        printf("!!!!!! Book #%d has not been borrowed !!!!!!", bookNum);
-        return;
+        printf("!!!!!! Book #%d has not been borrowed !!!!!!\n", bookNum);
+        return 1;
     }
 
     cur->nxt->lendAble = 'Y';
+    BookNode2File(head);
 
-    return;
+    return 0;
 }
 
 void BookFile2Node(Book *head) {
