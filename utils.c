@@ -80,8 +80,13 @@ void MemberMenu(int stdNum){
 
 void AdminMenu(){
 	int menu;
+	int lend_stdNum, lend_bookNum;
 	int bookNum = 0;
 	int cli_type;
+	char bookName[100];
+	char y_n;
+	long long ISBN;
+	Borrow *brw;
 
 	while(1){
 		puts(">> 관리자 메뉴 <<");
@@ -103,7 +108,53 @@ void AdminMenu(){
 				break;
 
 			case 3:
-				puts("도서 대여");
+				puts(">> 도서 대여 <<");
+				puts("1. 도서명 검색\t\t2. ISBN 검색");
+				printf("번호를 선택하세요 : "); scanf("%d", &menu);
+				if(menu == 1){
+					printf("도서명 입력 : "); scanf(" %[^\n]", bookName);
+					SearchBook(book_head, bookName, 0, 1);
+					printf("학번 입력 : "); scanf("%d", &lend_stdNum);
+					printf("도서번호 입력 : "); scanf("%d", &lend_bookNum);
+					printf("\n이 도서를 대여합니다? (Y/N) : "); scanf(" %c", &y_n);
+					if(y_n == 'Y' || y_n == 'y'){
+						if(!lendBook(book_head, lend_bookNum)){
+							brw = (Borrow*)malloc(sizeof(Borrow));
+							brw->stdNum = lend_stdNum;
+							brw->bookNum = lend_bookNum;
+							brw->lendDate = time(NULL);
+							brw->returnDate = getReturnDate(brw->lendDate);
+
+							AddBorrow(brw_head, brw);
+							free(brw);
+							puts("도서 대여가 완료되었습니다.\n");
+						}
+					}
+					else puts("도서 대여가 취소되었습니다.\n");
+
+				} else if(menu == 2) {
+					printf("ISBN 입력 : "); scanf("%lld", &ISBN);
+					SearchBook(book_head, "0", ISBN, 3);
+					printf("학번 입력 : "); scanf("%d", &lend_stdNum);
+					printf("도서번호 입력 : "); scanf("%d", &lend_bookNum);
+					printf("\n이 도서를 대여합니다? (Y/N) : "); scanf(" %c", &y_n);
+					if(y_n == 'Y' || y_n == 'y'){
+						if(!lendBook(book_head, lend_bookNum)){
+							brw = (Borrow*)malloc(sizeof(Borrow));
+							brw->stdNum = lend_stdNum;
+							brw->bookNum = lend_bookNum;
+							brw->lendDate = time(NULL);
+							brw->returnDate = getReturnDate(brw->lendDate);
+
+							AddBorrow(brw_head, brw);
+							free(brw);
+							puts("도서 대여가 완료되었습니다.\n");
+						}
+					}
+					else puts("도서 대여가 취소되었습니다.\n");
+					
+				} else puts("잘못된 입력입니다.\n");
+
 				break;
 
 			case 4:

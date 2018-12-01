@@ -46,7 +46,7 @@ void RemoveBook(Book *head, int bookNum);
 /*********************************************************
  * bookNum: 대여할 책의 책 번호
 **********************************************************/
-void lendBook(Book *head, int bookNum);
+int lendBook(Book *head, int bookNum);
 
 
 /*********************************************************

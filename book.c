@@ -2,6 +2,7 @@
 
 void PrintBookInfo(Book *cur) {
     printf("\n-----------------------------\n");
+    printf("* 도서번호: %d\n", cur->bookNum);
     printf("* 도서명: %s\n", cur->bookName);
     printf("* 출판사: %s\n", cur->publish);
     printf("* 저자명: %s\n", cur->author);
@@ -120,7 +121,7 @@ void RemoveBook(Book *head, int bookNum) {
     return;
 }
 
-void lendBook(Book *head, int bookNum) {
+int lendBook(Book *head, int bookNum) {
     Book *cur = head;
 
     while (cur->nxt != NULL && cur->nxt->bookNum != bookNum) {
@@ -128,18 +129,19 @@ void lendBook(Book *head, int bookNum) {
     }
 
     if (cur->nxt == NULL) {
-        printf("!!!!!! No Book #%d in DB !!!!!!", bookNum);
-        return;
+        printf("!!!!!! No Book #%d in DB !!!!!!\n", bookNum);
+        return 1;
     }
 
     if (cur->nxt->lendAble == 'N') {
-        printf("!!!!!! Book #%d has already been borrowed !!!!!!", bookNum);
-        return;
+        printf("!!!!!! Book #%d has already been borrowed !!!!!!\n", bookNum);
+        return 1;
     }
 
     cur->nxt->lendAble = 'N';
+    BookNode2File(head);
 
-    return;
+    return 0;
 }
 
 void returnBook(Book *head, int bookNum) {
@@ -190,10 +192,10 @@ void BookFile2Node(Book *head) {
 
 void BookNode2File(Book *head) {
     FILE * fp = fopen("txt_files/book.txt", "w");
-    Book * p = head;
+    Book * p = head->nxt;
     while (p != NULL) {
-        fprintf(fp, "%07d|%s|%s|%lld|%s|%c\n", p->bookNum,
-                p->bookName, p->author, p->isbn, p->location, p->lendAble);
+        fprintf(fp, "%07d|%s|%s|%s|%lld|%s|%c\n", p->bookNum,
+                p->bookName, p->publish, p->author, p->isbn, p->location, p->lendAble);
         p = p->nxt;
     }
 

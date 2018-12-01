@@ -70,8 +70,12 @@ int SearchClient(Client *head, int type){
 	char input[100];
 	Client *p = head->next;
 	
-	if(type<3){
-		printf("입력 : ");
+	if(type == 1){
+		printf("이름 입력 : ");
+		scanf(" %[^\n]", input);
+	} 
+	else {
+		printf("학번 입력 : ");
 		scanf(" %[^\n]", input);
 	}
 	puts("");
@@ -108,13 +112,13 @@ int SearchClient(Client *head, int type){
 }
 
 void PrintClientInfo(Client *cli) {
-		printf("=======================================\n");
-		printf("학 번 : %d\n", cli->stdNum);
-		printf("비밀번호 : %s\n", cli->pw);
-		printf("이 름 : %s\n", cli->name);
-		printf("주 소 : %s\n", cli->address);
-		printf("전화번호 : %s\n", cli->dial);
-		printf("=======================================\n\n");
+		printf("====================================\n");
+		printf("* 학 번 : %d\n", cli->stdNum);
+		printf("* 비밀번호 : %s\n", cli->pw);
+		printf("* 이 름 : %s\n", cli->name);
+		printf("* 주 소 : %s\n", cli->address);
+		printf("* 전화번호 : %s\n", cli->dial);
+		printf("====================================\n\n");
 }
 
 void PrintClientNodes(Client *cli) {
