@@ -80,12 +80,17 @@ void MemberMenu(int stdNum){
 void AdminMenu(){
 	int menu;
 	int lend_stdNum, lend_bookNum;
-	int bookNum = 0;
+	int del_bookNum = 0;
+	int bookNum = ReadBookNum();
 	int cli_type;
+	char author[100];
 	char bookName[100];
+	char location[100];
+	char publish[100];
 	char y_n;
 	long long ISBN;
 	Borrow *brw;
+	Book book;
 
 	while(1){
 		puts(">> 관리자 메뉴 <<");
@@ -98,12 +103,79 @@ void AdminMenu(){
 
 		switch(menu){
 			case 1:
-				puts("도서 등록");
-				bookNum++;
+				puts(">> 도서 등록 <<");
+				printf("도서명: "); scanf(" %[^\n]", bookName);
+				printf("출판사: "); scanf(" %[^\n]", publish);
+				printf("저자명: "); scanf(" %[^\n]", author);
+				printf("ISBN: "); scanf(" %lld", &ISBN);
+				printf("소장처: "); scanf(" %[^\n]", location);
+
+				printf("\n자동입력 사항\n\n");
+
+				printf("대여가능 여부: Y\n");
+				printf("도서번호: %d\n\n", bookNum+1);
+
+				char flag;
+				printf("등록하시겠습니까?(Y/N) "); scanf(" %c", &flag);
+
+				if (flag == 'Y' || flag == 'y') {
+					bookNum++;
+					WriteBookNum(bookNum);
+
+					book.bookName = (char*)malloc(sizeof(char)*(strlen(bookName)+1));
+					book.publish = (char*)malloc(sizeof(char)*(strlen(publish)+1));
+					book.author = (char*)malloc(sizeof(char)*(strlen(author)+1));
+					book.location = (char*)malloc(sizeof(char)*(strlen(location)+1));
+					strcpy(book.bookName, bookName);
+					strcpy(book.publish, publish);
+					strcpy(book.author, author);
+					strcpy(book.location, location);
+					book.isbn = ISBN;
+					book.lendAble = 'Y';
+					book.bookNum = bookNum;
+
+					AddBook(book_head, book);
+					BookNode2File(book_head);
+
+					puts("\n도서 등록이 완료 되었습니다.\n");
+				}
+				else {
+					puts("\n도서 등록이 취소 되었습니다.\n");
+				}
+
 				break;
 
 			case 2:
-				puts("도서 삭제");
+				puts(">> 도서 삭제 <<");
+				puts("1. 도서명 검색\t\t2. ISBN 검색\n");
+
+				printf("번호를 선택하세요 : "); scanf("%d", &menu);
+
+				if (menu == 1) {
+					printf("도서명 입력 : "); scanf(" %[^\n]", bookName);
+					printf("\n >> 검색 결과 << \n");
+					SearchBook(book_head, bookName, 0, 1, 1);
+				}
+				else {
+					printf("ISBN 입력 : "); scanf(" %lld", ISBN);
+					printf("\n >> 검색 결과 << \n");
+					SearchBook(book_head, "0", ISBN, 3, 1);
+				}
+
+				printf("\n삭제할 도서의 번호를 입력하세요: "); scanf("%d", &del_bookNum);
+
+				int ret = SearchBook(book_head, "0", (long long)del_bookNum, 6, 0);
+
+				if (ret == 1) {
+					RemoveBook(book_head, del_bookNum);
+					BookNode2File(book_head);
+
+					printf("\n도서가 삭제 되었습니다.\n");
+				}
+				else {
+					printf("\n이 도서는 삭제할 수 없습니다.\n");
+				}
+
 				break;
 
 			case 3:
@@ -112,7 +184,7 @@ void AdminMenu(){
 				printf("번호를 선택하세요 : "); scanf("%d", &menu);
 				if(menu == 1){
 					printf("도서명 입력 : "); scanf(" %[^\n]", bookName);
-					SearchBook(book_head, bookName, 0, 1);
+					SearchBook(book_head, bookName, 0, 1, 1);
 					printf("학번 입력 : "); scanf("%d", &lend_stdNum);
 					printf("도서번호 입력 : "); scanf("%d", &lend_bookNum);
 					printf("\n이 도서를 대여합니다? (Y/N) : "); scanf(" %c", &y_n);
@@ -133,7 +205,7 @@ void AdminMenu(){
 
 				} else if(menu == 2) {
 					printf("ISBN 입력 : "); scanf("%lld", &ISBN);
-					SearchBook(book_head, "0", ISBN, 3);
+					SearchBook(book_head, "0", ISBN, 3, 1);
 					printf("학번 입력 : "); scanf("%d", &lend_stdNum);
 					printf("도서번호 입력 : "); scanf("%d", &lend_bookNum);
 					printf("\n이 도서를 대여할까요? (Y/N) : "); scanf(" %c", &y_n);
