@@ -25,6 +25,9 @@ int IsSubstring(char *A, char *B) {
     int *fail, fLen;
     fLen = (aLen >= bLen ? aLen : bLen) + 1;
     fail = (int*)malloc(sizeof(int)*fLen);
+    for (int i = 0; i < fLen; i++) {
+        fail[i] = 0;
+    }
 
     for (int i = 1, j = 0; i < bLen; i++) {
         while (j && B[i] != B[j]) j = fail[j-1];
@@ -44,7 +47,7 @@ int IsSubstring(char *A, char *B) {
     return 0;
 }
 
-int SearchBook(Book *head, char *target, long long targetIsbn, int searchType) {
+int SearchBook(Book *head, char *target, long long targetIsbn, int searchType, int isPrint) {
     Book *cur = head;
     int ret = 0;
 
@@ -63,20 +66,26 @@ int SearchBook(Book *head, char *target, long long targetIsbn, int searchType) {
             t_isbn = cur->isbn;
         } else if (searchType == 4) {
             temp = cur->author;
+        } else if (searchType == 6) {
+            t_isbn = (long long)cur->bookNum;
         }
 
         if (searchType == 5) {
             flag = 1;
-        } else if (searchType != 3) {
+        } else if (searchType != 3 && searchType != 6) {
             flag = IsSubstring(temp, target);
         } else {
             flag = (targetIsbn == t_isbn);
         }
 
 
-        if (flag) {
-            PrintBookInfo(cur);
-            ret = 1;
+        if (flag == 1) {
+            if (cur->lendAble == 'Y') {
+                ret = 1;
+            }
+            if (isPrint == 1) {
+                PrintBookInfo(cur);
+            }
         }
     }
 
@@ -227,6 +236,4 @@ void WriteBookNum(int num) {
     fprintf(fp, "%d", num);
 
     fclose(fp);
-
-    return num;
 }

@@ -24,11 +24,12 @@ int IsSubstring(char *A, char *B); // KMP algorithm written by Wookje Kwon
  * *target: 검색할 문자열 포인터
  * ISBN이 long long임에 유의
  * ISBN으로 검색하는 경우: *target은 아무거나, targetIsbn에 값 전달
+ * 도서번호로 검색하는 경우: *target은 아무거나, targetIsbn에 도서번호 입력
  * 그 외의 경우: *target에 검색할 거, targetIsbn에 아무거나
- * searchType: 1도서명, 2출판사, 3ISBN, 4저자명, 5전체
+ * searchType: 1도서명, 2출판사, 3ISBN, 4저자명, 5전체, 6도서번호
  * searchType: 5의 경우 target은 아무거나 넣어주면 됨
 **********************************************************/
-int SearchBook(Book *head, char *target, long long targetIsbn, int searchType);
+int SearchBook(Book *head, char *target, long long targetIsbn, int searchType, int isPrint);
 
 
 /*********************************************************
