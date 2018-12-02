@@ -17,6 +17,10 @@ void PrintBookInfo(Book *cur) {
 int IsSubstring(char *A, char *B) {
     int aLen = strlen(A);
     int bLen = strlen(B);
+	
+    if (aLen < bLen) {
+        return 0;
+    }
 
     int *fail, fLen;
     fLen = (aLen >= bLen ? aLen : bLen) + 1;
