@@ -209,7 +209,7 @@ void BookNode2File(Book *head) {
     return;
 }
 
-void ReadBookNum() {
+int ReadBookNum() {
     int num;
     FILE * fp = fopen("txt_files/book_num.txt", "r");
 
