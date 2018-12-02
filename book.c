@@ -44,8 +44,9 @@ int IsSubstring(char *A, char *B) {
     return 0;
 }
 
-void SearchBook(Book *head, char *target, long long targetIsbn, int searchType) {
+int SearchBook(Book *head, char *target, long long targetIsbn, int searchType) {
     Book *cur = head;
+    int ret = 0;
 
     while (cur->nxt != NULL) {
         int flag = 0;
@@ -75,10 +76,11 @@ void SearchBook(Book *head, char *target, long long targetIsbn, int searchType) 
 
         if (flag) {
             PrintBookInfo(cur);
+            ret = 1;
         }
     }
 
-    return;
+    return ret;
 }
 
 void AddBook(Book *head, Book book) {
