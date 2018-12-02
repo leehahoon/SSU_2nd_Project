@@ -208,3 +208,23 @@ void BookNode2File(Book *head) {
 
     return;
 }
+
+void ReadBookNum() {
+    int num;
+    FILE * fp = fopen("txt_files/book_num.txt", "r");
+
+    fscanf(fp, "%d", &num);
+
+    fclose(fp);
+
+    return num;
+}
+
+void WriteBookNum(int num) {
+    FILE * fp = fopen("txt_files/book_num.txt", "w");
+    fprintf(fp, "%d", num);
+
+    fclose(fp);
+
+    return num;
+}
