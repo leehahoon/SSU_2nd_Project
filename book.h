@@ -28,7 +28,7 @@ int IsSubstring(char *A, char *B); // KMP algorithm written by Wookje Kwon
  * searchType: 1도서명, 2출판사, 3ISBN, 4저자명, 5전체
  * searchType: 5의 경우 target은 아무거나 넣어주면 됨
 **********************************************************/
-void SearchBook(Book *head, char *target, long long targetIsbn, int searchType);
+int SearchBook(Book *head, char *target, long long targetIsbn, int searchType);
 
 
 /*********************************************************
