@@ -10,6 +10,9 @@ extern Borrow * brw_head;
 
 void MemberMenu(int stdNum){
 	int menu;
+	int searchtype;
+	char *searching;
+	long long isbn;
 	while(1) {
 		puts(">> 회원 메뉴 <<");
 		puts("1. 도서 검색\t\t2. 내 대여 목록");
@@ -20,7 +23,50 @@ void MemberMenu(int stdNum){
 
 		switch(menu){
 			case 1:
-				puts("도서 검색");
+				puts(">> 도서 검색 <<");
+				printf("1. 도서명 검색\t\t2. 출판사 검색\n");
+                printf("3. ISBN 검색\t\t4. 저자명 검색\n");
+				printf("5. 전체 검색\t\t6. 이전 메뉴\n");
+				printf("번호를 선택하세요 : "); scanf("%d", &searchtype);
+				if (searchtype == 1)
+				{
+					searching = (char *)malloc(50);
+					printf("도서명을 입력하십시오 : "); scanf(" %[^\n]", searching);
+					SearchBook(book_head, searching, 11, 1, 1);
+					free(searching);
+				}
+				else if (searchtype == 2)
+				{
+					searching = (char *)malloc(50);
+					printf("출판사를 입력하십시오 : "); scanf(" %[^\n]", searching);
+					SearchBook(book_head, searching, 11, 2, 1);
+					free(searching);
+				}
+				else if (searchtype == 3)
+				{
+					searching = (char *)malloc(50);
+					printf("ISBN을 입력하십시오 : "); scanf("%lld", &isbn);
+					SearchBook(book_head, "aa", isbn, 3, 1);
+				}
+				else if (searchtype == 4)
+				{
+					searching = (char *)malloc(50);
+					printf("저자명을 입력하십시오 : "); scanf(" %[^\n]", searching);
+					SearchBook(book_head, searching, 11, 4, 1);
+					free(searching);
+				}
+				else if (searchtype == 5)
+				{
+					printf("전체 검색 결과\n");
+					SearchBook(book_head, "aaa", 11, 5, 1);
+				}
+				else if (searchtype == 6)
+				{
+					;
+				}
+				else
+					printf("잘못된 입력입니다");
+
 				break;
 
 			case 2:
@@ -157,7 +203,7 @@ void AdminMenu(){
 					SearchBook(book_head, bookName, 0, 1, 1);
 				}
 				else {
-					printf("ISBN 입력 : "); scanf(" %lld", ISBN);
+					printf("ISBN 입력 : "); scanf(" %lld", &ISBN);
 					printf("\n >> 검색 결과 << \n");
 					SearchBook(book_head, "0", ISBN, 3, 1);
 				}
