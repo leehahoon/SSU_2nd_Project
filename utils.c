@@ -25,7 +25,7 @@ void MemberMenu(int stdNum){
 			case 1:
 				puts(">> 도서 검색 <<");
 				printf("1. 도서명 검색\t\t2. 출판사 검색\n");
-               			printf("3. ISBN 검색\t\t4. 저자명 검색\n");
+				printf("3. ISBN 검색\t\t4. 저자명 검색\n");
 				printf("5. 전체 검색\t\t6. 이전 메뉴\n");
 				printf("번호를 선택하세요 : "); scanf("%d", &searchtype);
 				if (searchtype == 1)
