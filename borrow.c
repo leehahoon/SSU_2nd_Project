@@ -32,18 +32,6 @@ void DeleteBorrow(Borrow *head, int bookNum){
 	BorrowNode2File(p);
 }
 
-Borrow* LendList(Borrow *brw_head, int stdNum) {
-	Borrow *p = brw_head->next;
-	while(p->next != NULL){
-		if(p->stdNum == stdNum) {
-			return p;
-		}
-		p = p->next;
-	}
-	free(p);
-	return 0;
-}
-
 void BorrowFile2Node(Borrow *head) {
 	FILE * fp = fopen("txt_files/borrow.txt", "r");
 	Borrow * brw = (Borrow*)malloc(sizeof(Borrow));
