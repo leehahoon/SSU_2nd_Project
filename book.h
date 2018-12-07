@@ -31,6 +31,7 @@ int IsSubstring(char *A, char *B); // KMP algorithm written by Wookje Kwon
  * return 0: 찾는 책이 없음
  * return 1: 찾는 책이 있고 lendAble이 'Y'임
  * return 2: lendAble에 관계 없이 찾는 책이 있음
+ * 개발자: 권욱제
 **********************************************************/
 int SearchBook(Book *head, char *target, long long targetIsbn, int searchType, int isPrint);
 
@@ -38,6 +39,7 @@ int SearchBook(Book *head, char *target, long long targetIsbn, int searchType, i
 /*********************************************************
  * 책을 추가하는 함수
  * book: 추가할 책의 정보를 담은 구조체
+ * 개발자: 권욱제
 **********************************************************/
 void AddBook(Book *head, Book book);
 
@@ -45,6 +47,7 @@ void AddBook(Book *head, Book book);
 /*********************************************************
  * 책을 삭제하는 함수
  * bookNum: 삭제할 책의 책 번호
+ * 개발자: 권욱제
 **********************************************************/
 void RemoveBook(Book *head, int bookNum);
 
@@ -54,6 +57,7 @@ void RemoveBook(Book *head, int bookNum);
  * bookNum: 대여할 책의 책 번호
  * 책을 빌릴 수 없으면(이미 빌림, 책이 없음) return 1
  * 외에는 빌림으로 처리하고 return 0
+ * 개발자: 권욱제
 **********************************************************/
 int lendBook(Book *head, int bookNum);
 
@@ -63,24 +67,28 @@ int lendBook(Book *head, int bookNum);
  * bookNum: 반납할 책의 책 번호
  * 책을 반납할 수 없으면(이미 빌림, 책이 없음) return 1
  * 외에는 반납으로 처리하고 return 0
+ * 개발자: 권욱제
 **********************************************************/
 int returnBook(Book *head, int bookNum);
 
 
 /*********************************************************
  * 파일 불러오기
+ * 개발자: 권욱제
 **********************************************************/
 void BookFile2Node(Book *head);
 
 
 /*********************************************************
  * 파일 저장하기
+ * 개발자: 권욱제
 **********************************************************/
 void BookNode2File(Book *head);
 
 
 /*********************************************************
  * 책 번호 입출력
+ * 개발자: 권욱제
 **********************************************************/
 int ReadBookNum();
 void WriteBookNum(int num);
