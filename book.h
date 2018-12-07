@@ -28,30 +28,41 @@ int IsSubstring(char *A, char *B); // KMP algorithm written by Wookje Kwon
  * 그 외의 경우: *target에 검색할 거, targetIsbn에 아무거나
  * searchType: 1도서명, 2출판사, 3ISBN, 4저자명, 5전체, 6도서번호
  * searchType: 5의 경우 target은 아무거나 넣어주면 됨
+ * return 0: 찾는 책이 없음
+ * return 1: 찾는 책이 있고 lendAble이 'Y'임
+ * return 2: lendAble에 관계 없이 찾는 책이 있음
 **********************************************************/
 int SearchBook(Book *head, char *target, long long targetIsbn, int searchType, int isPrint);
 
 
 /*********************************************************
+ * 책을 추가하는 함수
  * book: 추가할 책의 정보를 담은 구조체
 **********************************************************/
 void AddBook(Book *head, Book book);
 
 
 /*********************************************************
+ * 책을 삭제하는 함수
  * bookNum: 삭제할 책의 책 번호
 **********************************************************/
 void RemoveBook(Book *head, int bookNum);
 
 
 /*********************************************************
+ * 책을 빌리는 함수
  * bookNum: 대여할 책의 책 번호
+ * 책을 빌릴 수 없으면(이미 빌림, 책이 없음) return 1
+ * 외에는 빌림으로 처리하고 return 0
 **********************************************************/
 int lendBook(Book *head, int bookNum);
 
 
 /*********************************************************
+ * 책을 반납하는 함수
  * bookNum: 반납할 책의 책 번호
+ * 책을 반납할 수 없으면(이미 빌림, 책이 없음) return 1
+ * 외에는 반납으로 처리하고 return 0
 **********************************************************/
 int returnBook(Book *head, int bookNum);
 
@@ -71,6 +82,5 @@ void BookNode2File(Book *head);
 /*********************************************************
  * 책 번호 입출력
 **********************************************************/
-
 int ReadBookNum();
 void WriteBookNum(int num);
