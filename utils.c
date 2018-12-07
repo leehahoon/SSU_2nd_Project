@@ -200,7 +200,7 @@ void AdminMenu(){
 				if (menu == 1) {
 					printf("도서명 입력 : "); scanf(" %[^\n]", bookName);
 					printf("\n >> 검색 결과 << \n");
-					SearchBook(book_head, bookName, 0, 1, 1);
+					int ret = SearchBook(book_head, bookName, 0, 1, 1);
 				}
 				else {
 					printf("ISBN 입력 : "); scanf(" %lld", &ISBN);
