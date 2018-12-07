@@ -80,7 +80,9 @@ int SearchBook(Book *head, char *target, long long targetIsbn, int searchType, i
 
 
         if (flag == 1) {
-            ret = 2;
+            if (ret == 0) {
+                ret = 2;
+            }
             if (cur->lendAble == 'Y') {
                 ret = 1;
             }
