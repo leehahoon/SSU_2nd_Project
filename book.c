@@ -92,6 +92,12 @@ int SearchBook(Book *head, char *target, long long targetIsbn, int searchType, i
         }
     }
 
+    if (ret == 0 && isPrint == 1) {
+        printf("\n-----------------------------\n");
+        printf("       찾는 책이 없어요!!!");
+        printf("-----------------------------\n");    
+    }
+
     return ret;
 }
 
