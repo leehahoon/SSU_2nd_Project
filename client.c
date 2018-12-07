@@ -69,7 +69,7 @@ int SearchClient(Client *head, int type){
 		printf("이름 입력 : ");
 		scanf(" %[^\n]", input);
 	} 
-	else {
+	else if(type == 2){
 		printf("학번 입력 : ");
 		scanf(" %[^\n]", input);
 	}
